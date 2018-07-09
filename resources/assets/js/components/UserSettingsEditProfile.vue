@@ -19,7 +19,7 @@
 
 					<p class="go-gray go-small">
 						The Uploaded photo must have a minimum of 
-						<strong>100*100 pixels</strong> with a
+						<strong>100*100 pixels</strong> with
 						<strong>good capturing</strong> (such as a square or circle)
 					</p>
 
