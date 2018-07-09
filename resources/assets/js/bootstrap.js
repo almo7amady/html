@@ -102,6 +102,3 @@ if (Laravel.broadcasting.service == 'echo' && Laravel.broadcasting.echo.key.trim
  */
 window.emojione = require('./libs/emojione.min');
 
-module.exports = {
-    mode: 'production'
-}
