@@ -57,7 +57,7 @@
 	<script src="{{ mix('/js/app.js') }}"></script>
 @yield('footer')
 
-<script src="{ { asset('js/socket.io.js') } }"></script>
+<script src="{{ asset('js/socket.io.js') }}"></script>
 <script>
     //var socket = io('http://localhost:3000');
     var socket = io('https://46.101.123.45:3000');
