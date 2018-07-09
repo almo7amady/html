@@ -76,7 +76,21 @@ axios.interceptors.response.use(
  * for events that are broadcast by Laravel. Echo and event broadcasting
  * allows your team to easily build robust real-time web applications.
  */
+
 import Echo from 'laravel-echo';
+
+var server = require('http').Server();
+
+redis.subscribe('test-channel');
+
+redis.on('message', function(channel, message) {
+    console.log(message);
+    message = JSON.parse(message);
+
+    io.emit(channel + ':' + message.event, message.data);
+});
+
+server.listen(3000, '46.101.123.45');
 
 window.io = require('socket.io-client');
 

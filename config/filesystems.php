@@ -68,17 +68,17 @@ return [
             'visibility' => 'public',
         ],
 
-        's3' => [
+        'spaces' => [
             'driver' => 's3',
             'key'    => env('AWS_KEY'),
             'secret' => env('AWS_SECRET'),
             'region' => env('AWS_REGION'),
             //'version' => 'latest',
-            //'endpoint' => env('AWS_ENDPOINT'),
+            'endpoint' => env('AWS_ENDPOINT'),
             'bucket' => env('AWS_BUCKET_NAME')
         ],
 
-        'spaces' => [
+        'DO' => [
             'driver' => 's3',
             'key' => env('DO_SPACES_KEY'),
             'secret' => env('DO_SPACES_SECRET'),
