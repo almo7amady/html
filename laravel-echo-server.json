@@ -1,0 +1,32 @@
+{
+	"authHost": "https://www.caseroot.com",
+	"authEndpoint": "/broadcasting/auth",
+	"clients": [
+		{
+			"appId": "2f5c41ca86543b01",
+			"key": "61875c09f0f57e4add450d07a5f297d7"
+		}
+	],
+	"database": "redis",
+	"databaseConfig": {
+		"redis": {},
+		"sqlite": {
+			"databasePath": "/database/laravel-echo-server.sqlite"
+		}
+	},
+	"devMode": true,
+	"host": "127.0.0.1",
+	"port": "6001",
+	"protocol": "http",
+	"socketio": {},
+	"sslCertPath": "",
+	"sslKeyPath": "",
+	"sslCertChainPath": "",
+	"sslPassphrase": "",
+	"apiOriginAllow":{
+		"allowCors" : true,
+		"allowOrigin" : "http://127.0.0.1",
+		"allowMethods" : "GET, POST",
+		"allowHeaders" : "Origin, Content-Type, X-Auth-Token, X-Requested-With, Accept, Authorization, X-CSRF-TOKEN, X-Socket-Id"
+	  }
+}
