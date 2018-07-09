@@ -78,7 +78,6 @@ class LoginController extends Controller
 
         return redirect($this->redirectTo);
     }
-
     /**
      * Return user if exists; create and return if doesn't.
      *
