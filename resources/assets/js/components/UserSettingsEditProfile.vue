@@ -19,8 +19,8 @@
 
 					<p class="go-gray go-small">
 						The Uploaded photo must have a minimum of 
-						<strong>250*250 pixels</strong> with a
-						<strong>ratio of 1/1</strong> (such as a square or circle)
+						<strong>100*100 pixels</strong> with a
+						<strong>good capturing</strong> (such as a square or circle)
 					</p>
 
 					<el-alert v-for="e in avatar.errors.photo"

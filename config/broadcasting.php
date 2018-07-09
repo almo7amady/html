@@ -48,7 +48,7 @@ return [
             'driver' => 'redis',
             'host' => env('ECHO_HOST', ''),
             'port' => env('ECHO_PORT', 6001),
-            'bearerToken' => env('ECHO_BEARER_TOKEN', 'nb35mdq2ca9928qgl4sgjf3imil5811sn41qsmcaph0p3h6sa5ht8hoktdeg'),
+            'bearerToken' => env('ECHO_BEARER_TOKEN', 'e0587dfbfd1047b1a88c5cdf47ca1490e66421a8f995438e92ab0613fb4a81be'),
             'app_id' => env('ECHO_APP_ID'),
             'auth_key' => env('ECHO_AUTH_KEY'),
         ],

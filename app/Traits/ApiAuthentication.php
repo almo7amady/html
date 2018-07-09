@@ -51,7 +51,7 @@ trait ApiAuthentication
         $token = $user->createToken($user->username . ' - ' . now()->toDateTimeString()); 
 
         return response()->json([
-            //'token_type' => 'Bearer', //Bearer
+            'token_type' => 'Bearer', //Bearer
             'access_token' => $token->accessToken,
             'expires_in' => 60 * 60 * 24 * 365
         ]);

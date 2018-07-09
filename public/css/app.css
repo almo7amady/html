@@ -44878,8 +44878,8 @@
 }
 
 .el-alert--error {
-  background-color: #eceae8;
-  color: #3e2d1b;
+  background-color: #e86a3a66;
+  color: #2b1804;
 }
 
 .el-alert--error .el-alert__description {

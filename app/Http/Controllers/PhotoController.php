@@ -65,7 +65,7 @@ class PhotoController extends Controller
     {
         // validate
         $this->validate($request, [
-            'photo' => ['required', 'image', Rule::dimensions()->minWidth(250)->minHeight(250)->ratio(1 / 1)],
+            'photo' => ['required', 'image', Rule::dimensions()->minWidth(100)->minHeight(100)],
         ]);
 
         // fill variables
@@ -104,7 +104,7 @@ class PhotoController extends Controller
     {
         // validate
         $this->validate($request, [
-            'photo' => ['required', 'image', Rule::dimensions()->minWidth(250)->minHeight(250)->ratio(1 / 1)],
+            'photo' => ['required', 'image', Rule::dimensions()->minWidth(100)->minHeight(100)],
         ]);
 
         // fill variables
