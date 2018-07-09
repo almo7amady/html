@@ -68,13 +68,7 @@
 	<script src="{{ mix('/js/vendor.js') }}"></script>
 	<script src="{{ mix('/js/app.js') }}"></script>
 @yield('footer')
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({
-            google_ad_client: "ca-pub-8027817553143626",
-            enable_page_level_ads: true
-        });
-</script>
+
 
 </body>
 </html>
