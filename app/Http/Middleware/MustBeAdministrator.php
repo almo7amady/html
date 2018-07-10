@@ -21,9 +21,7 @@ class MustBeAdministrator
     {
         abort_unless($this->mustBeAdministrator($request->route('channel')->id ?? request('channel_id')), 403);
 
-        return $next($request)
-            ->header('Access-Control-Allow-Origin', '*')
-            ->header('Access-Control-Allow-Methods', 'GET, POST, PUT,         
-    DELETE, OPTIONS');
+        return $next($request);
+
     }
 }

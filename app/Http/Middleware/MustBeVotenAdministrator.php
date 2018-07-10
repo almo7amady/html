@@ -21,9 +21,7 @@ class MustBeVotenAdministrator
     {
         abort_unless($this->mustBeVotenAdministrator(), 403);
 
-        return $next($request)
-            ->header('Access-Control-Allow-Origin', '*')
-            ->header('Access-Control-Allow-Methods', 'GET, POST, PUT,         
-    DELETE, OPTIONS');
+        return $next($request);
+
     }
 }
