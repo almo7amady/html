@@ -1,5 +1,5 @@
 {
-	"authHost": "https://www.caseroot.com",
+	"authHost": "46.101.123.45",
 	"authEndpoint": "/broadcasting/auth",
 	"clients": [
 		{
