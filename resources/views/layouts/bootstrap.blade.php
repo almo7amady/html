@@ -34,14 +34,6 @@
         <script src="{{ mix('/js/bootstrap4.js') }}"></script>
     @yield('footer')
 
-<script src="{{ asset('js/socket.io.js') }}"></script>
-<script>
-    //var socket = io('http://localhost:3000');
-    var socket = io('https://46.101.123.45:3000');
-    socket.on("test-channel:App\\Events\\EventName", function(message){
-        // increase the power everytime we load test route
-        $('#power').text(parseInt($('#power').text()) + parseInt(message.data.power));
-    });
-</script>
+
 </body>
 </html>
