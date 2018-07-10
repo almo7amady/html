@@ -171,6 +171,7 @@ return [
         Laravel\Passport\PassportServiceProvider::class,
         Sentry\SentryLaravel\SentryLaravelServiceProvider::class,
         Laravel\Scout\ScoutServiceProvider::class,
+        Barryvdh\Cors\ServiceProvider::class,
 
         // dev only
         VueGenerators\ServiceProvider::class,

@@ -1,5 +1,11 @@
 <?php
 
+Route::post('/api/https://caseroot.com', ['middleware' => 'cors',function(){
+
+	return ['status'=>'success'];
+}]);
+
+
 Route::group(['middleware' => ['auth:api']], function () {
     // Administrator routes
     Route::post('/admin/check', 'AdminController@isAdministrator'); // checked 

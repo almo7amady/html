@@ -71,5 +71,6 @@ class Kernel extends HttpKernel
         'administrator'       => MustBeAdministrator::class,
         'moderator'           => MustBeModerator::class,
         'shadow-ban'         => ShadowBan::class,
+        'cors'               => \Barryvdh\Cors\HandleCors::class, // add this line to enable cors to your routes
     ];
 }
