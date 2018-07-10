@@ -24,6 +24,8 @@ class Kernel extends HttpKernel
         \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
         Firewall::class,
         \Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode::class,
+        \Barryvdh\Cors\HandleCors::class,
+
     ];
 
     /**
@@ -45,6 +47,7 @@ class Kernel extends HttpKernel
         'api' => [
             'throttle:120,1',
             'bindings',
+            \Barryvdh\Cors\HandleCors::class,
         ],
     ];
 
