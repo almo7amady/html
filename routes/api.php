@@ -1,6 +1,6 @@
 <?php
 
-Route::group(['middleware' =>'cors', ['auth:api']], function () {
+Route::group(['middleware' => ['auth:api']], function () {
     // Administrator routes
     Route::post('/admin/check', 'AdminController@isAdministrator'); // checked 
     Route::get('/admin/users', 'AdminController@indexUsers'); // checked 
@@ -168,30 +168,27 @@ Route::group(['middleware' =>'cors', ['auth:api']], function () {
 ////////////////////////////////////////////////////////////////////////
 // Below routes are the twin routes for guests
 ////////////////////////////////////////////////////////////////////////
-
-Route::group(['middleware' =>'cors'], function () {
-    Route::prefix('guest')->group(function () {
-        Route::get('/users', 'UserController@getByUsername'); // checked 
-        Route::get('/users/{user}', 'UserController@getById'); // checked 
-        Route::get('/feed', 'HomeController@guestFeed')->middleware('guest'); // checked 
-        Route::get('/channels/submissions', 'ChannelController@submissionsByChannelName'); // checked 
-        Route::get('/channels/{channel}/submissions', 'ChannelController@submissions'); // checked 
-        Route::get('/submissions', 'SubmissionController@getBySlug'); // checked
-        Route::get('/channels/{channel}/moderators', 'ModeratorController@index'); // checked 
-        Route::get('/channels/{channel}/rules', 'RulesController@index'); // checked 
-        Route::get('/emojis', 'EmojiController@index'); // dirty fix for now 
-        Route::get('/submissions/photos', 'SubmissionController@getPhotos');
-        Route::get('/search', 'SearchController@index'); // checked 
-        Route::get('/channels', 'ChannelController@getByName'); // checked 
-        Route::get('/channels/{channel}', 'ChannelController@getById'); // checked 
-        Route::get('/users/{user}/submissions', 'UserController@submissions'); // checked
-        Route::get('/user-submissions', 'UserController@submissionsByUsername'); // dirty fix for now 
-        Route::get('/users/{user}/comments', 'UserController@comments'); // checked 
-        Route::get('/user-comments', 'UserController@commentsByUsername'); // dirty fix for now 
-        Route::get('/submissions/{submission}/comments', 'CommentController@index'); // checked  
-        Route::get('/submissions/{submission}', 'SubmissionController@getById'); // checked 
-    });
-
-    Route::post('/token/login', 'Auth\LoginController@getAccessToken'); // checked 
-    Route::post('/token/register', 'Auth\RegisterController@getAccessToken'); // checked 
+Route::prefix('guest')->group(function () {
+    Route::get('/users', 'UserController@getByUsername'); // checked 
+    Route::get('/users/{user}', 'UserController@getById'); // checked 
+    Route::get('/feed', 'HomeController@guestFeed')->middleware('guest'); // checked 
+    Route::get('/channels/submissions', 'ChannelController@submissionsByChannelName'); // checked 
+    Route::get('/channels/{channel}/submissions', 'ChannelController@submissions'); // checked 
+    Route::get('/submissions', 'SubmissionController@getBySlug'); // checked
+    Route::get('/channels/{channel}/moderators', 'ModeratorController@index'); // checked 
+    Route::get('/channels/{channel}/rules', 'RulesController@index'); // checked 
+    Route::get('/emojis', 'EmojiController@index'); // dirty fix for now 
+    Route::get('/submissions/photos', 'SubmissionController@getPhotos');
+    Route::get('/search', 'SearchController@index'); // checked 
+    Route::get('/channels', 'ChannelController@getByName'); // checked 
+    Route::get('/channels/{channel}', 'ChannelController@getById'); // checked 
+    Route::get('/users/{user}/submissions', 'UserController@submissions'); // checked
+    Route::get('/user-submissions', 'UserController@submissionsByUsername'); // dirty fix for now 
+    Route::get('/users/{user}/comments', 'UserController@comments'); // checked 
+    Route::get('/user-comments', 'UserController@commentsByUsername'); // dirty fix for now 
+    Route::get('/submissions/{submission}/comments', 'CommentController@index'); // checked  
+    Route::get('/submissions/{submission}', 'SubmissionController@getById'); // checked 
 });
+
+Route::post('/token/login', 'Auth\LoginController@getAccessToken'); // checked 
+Route::post('/token/register', 'Auth\RegisterController@getAccessToken'); // checked 
