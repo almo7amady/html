@@ -71,26 +71,6 @@ axios.interceptors.response.use(
     }
 );
 
-const thisConfig = {
-    AllowedMethods: ['GET', 'POST', 'PUT', 'HEAD'],
-    AllowedOrigins: ['*'],
-    ExposeHeaders: [],
-    MaxAgeSeconds: 3000,
-};
-
-const corsRules = new Array(thisConfig);
-const corsParams = {
-Bucket: 'caseroot',
-CORSConfiguration: { CORSRules: corsRules },
-};
-// set the new CORS configuration on the selected bucket
-s3.putBucketCors(corsParams, (err, data) => {
-if (err) {
-    console.log('Error', err);
-} else {
-    console.log('Success', data);
-}
-});
 
 
 /**
