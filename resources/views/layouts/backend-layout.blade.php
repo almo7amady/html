@@ -21,7 +21,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     @include('env-to-js-data')
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
     <link rel="shortcut icon" href="{{ config('app.favicon') }}">
 </head>
 
