@@ -84,11 +84,14 @@ window.io = require('socket.io-client');
 if (Laravel.broadcasting.service == 'echo' && Laravel.broadcasting.echo.key.trim()) {
     window.Echo = new Echo({
         broadcaster: 'socket.io',
-        key: Laravel.broadcasting.echo.key,
-        host: Laravel.broadcasting.echo.host + ':' + Laravel.broadcasting.echo.port
+        host: { path: '/socket.io' },
+        //key: Laravel.broadcasting.echo.key,
+        //host: Laravel.broadcasting.echo.host + ':' + Laravel.broadcasting.echo.port
     });
 
-} /**else if (Laravel.broadcasting.service == 'pusher' && Laravel.broadcasting.pusher.key.trim()) {
+}
+
+/**else if (Laravel.broadcasting.service == 'pusher' && Laravel.broadcasting.pusher.key.trim()) {
     window.Echo = new Echo({
         broadcaster: 'pusher',
         key: Laravel.broadcasting.pusher.key,
