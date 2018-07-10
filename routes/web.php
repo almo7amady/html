@@ -9,7 +9,7 @@ Route::redirect('/blog', 'https://medium.com/@almohamady7', 301);
 Route::redirect('/dev', '/c/CaseRootdev', 301);
 Route::redirect('/developers', '/c/CaseRootdev', 301);
 
-Route::group(['middleware' =>'cors', ['http2']], function () {
+Route::group(['middleware' => ['http2']], function () {
     // Authintication routes
     Route::auth();
     Route::get('/logout', 'Auth\LoginController@logout');
@@ -41,61 +41,60 @@ Route::group(['middleware' =>'cors', ['http2']], function () {
     Route::get('/channels.xml', 'SitemapsController@channels');
 });
 
-Route::group(['middleware' =>'cors'], function () {
-    Route::group(['prefix' => 'api'], function () {
-        // Authintication routes
-        Route::auth();
-        Route::get('/logout', 'Auth\LoginController@logout');
-        Route::post('/guest/login', 'Auth\LoginController@login');
-    });
-
-    // backend-admin
-    Route::get('/backend', 'BackendController@dashboard');
-    Route::post('/block-domain', 'BlockDomainController@store');
-    Route::post('/appointed/store', 'BackendController@storeAppointed');
-    Route::get('/backend/announcements', 'AnnouncementController@show');
-    Route::post('/create-announcement', 'AnnouncementController@store');
-    Route::delete('/announcement/destroy/{announcement}', 'AnnouncementController@destroy');
-    Route::delete('/block-domain/destroy', 'BlockDomainController@destroy');
-    Route::get('/backend/server-control', 'BackendController@serverControls');
-    Route::get('/backend/firewall', 'BackendController@firewall');
-    Route::get('/backend/appointed-users', 'BackendController@indexAppointedUsers');
-    Route::get('/backend/channels', 'BackendController@showChannels');
-    Route::get('/backend/channels/{channel}', 'BackendController@showChannel');
-    Route::get('/backend/users', 'BackendController@showUsers');
-    Route::get('/backend/users/{user}', 'BackendController@showUser');
-    Route::delete('/backend/users/destroy', 'UserController@destroy');
-    Route::post('/ban-user', 'BanController@storeAsVotenAdministrator');
-    Route::delete('/ban-user/destroy', 'BanController@destroyAsVotenAdministrator');
-    Route::post('/backend/firewall/ip/store', 'FirewallController@store');
-    Route::delete('/backend/firewall/ip/destroy', 'FirewallController@destroy');
-    Route::get('/backend/spams/multiple-accounts', 'Backend\SpamsController@multipleAccounts');
-    Route::get('/backend/spams/submissions', 'Backend\SpamsController@submissions');
-    Route::get('/backend/spams/comments', 'Backend\SpamsController@comments');
-    Route::post('/approve-comment', 'ModeratorController@approveComment');
-    Route::post('/approve-submission', 'ModeratorController@approveSubmission');
-    Route::post('/disapprove-comment', 'ModeratorController@disapproveComment');
-    Route::post('/disapprove-submission', 'ModeratorController@disapproveSubmission');
-    Route::post('/backend/update-comments-count', 'BackendController@updateCommentsCount');
-    Route::post('/forbidden-username/store', 'BackendController@storeForbiddenUsername');
-    Route::delete('/appointed/destroy/{appointed}', 'BackendController@destroyAppointed');
-    Route::post('/forbidden-channel-name/store', 'BackendController@storeForbiddenChannelName');
-    Route::delete('/forbidden-username/destroy/{forbidden}', 'BackendController@destroyForbiddenUsername');
-    Route::delete('/forbidden-channel-name/destroy/{forbidden}', 'BackendController@destroyForbiddenChannelName');
-    Route::get('/backend/emails', 'EmailsController@index');
-    Route::post('/emails/announcement/store', 'EmailsController@store');
-    Route::post('/emails/announcement/send', 'EmailsController@send');
-    Route::post('/backend/channel-removal-warnings/send', 'WarningsController@channelsRemoval');
-    Route::get('/emails/announcement/preview', 'EmailsController@preview');
-
-    // ssh control
-    Route::post('/ssh/flush-all', 'SshController@flushAll');
-    Route::post('/ssh/cache-clear', 'SshController@clearCache');
-
-    // Passport
-    Route::get('/apps', 'OAuthController@show');
+Route::group(['prefix' => 'api'], function () {
+    // Authintication routes
+    Route::auth();
+    Route::get('/logout', 'Auth\LoginController@logout');
+    Route::post('/guest/login', 'Auth\LoginController@login');
 });
+
+// backend-admin
+Route::get('/backend', 'BackendController@dashboard');
+Route::post('/block-domain', 'BlockDomainController@store');
+Route::post('/appointed/store', 'BackendController@storeAppointed');
+Route::get('/backend/announcements', 'AnnouncementController@show');
+Route::post('/create-announcement', 'AnnouncementController@store');
+Route::delete('/announcement/destroy/{announcement}', 'AnnouncementController@destroy');
+Route::delete('/block-domain/destroy', 'BlockDomainController@destroy');
+Route::get('/backend/server-control', 'BackendController@serverControls');
+Route::get('/backend/firewall', 'BackendController@firewall');
+Route::get('/backend/appointed-users', 'BackendController@indexAppointedUsers');
+Route::get('/backend/channels', 'BackendController@showChannels');
+Route::get('/backend/channels/{channel}', 'BackendController@showChannel');
+Route::get('/backend/users', 'BackendController@showUsers');
+Route::get('/backend/users/{user}', 'BackendController@showUser');
+Route::delete('/backend/users/destroy', 'UserController@destroy');
+Route::post('/ban-user', 'BanController@storeAsVotenAdministrator');
+Route::delete('/ban-user/destroy', 'BanController@destroyAsVotenAdministrator');
+Route::post('/backend/firewall/ip/store', 'FirewallController@store');
+Route::delete('/backend/firewall/ip/destroy', 'FirewallController@destroy');
+Route::get('/backend/spams/multiple-accounts', 'Backend\SpamsController@multipleAccounts');
+Route::get('/backend/spams/submissions', 'Backend\SpamsController@submissions');
+Route::get('/backend/spams/comments', 'Backend\SpamsController@comments');
+Route::post('/approve-comment', 'ModeratorController@approveComment');
+Route::post('/approve-submission', 'ModeratorController@approveSubmission');
+Route::post('/disapprove-comment', 'ModeratorController@disapproveComment');
+Route::post('/disapprove-submission', 'ModeratorController@disapproveSubmission');
+Route::post('/backend/update-comments-count', 'BackendController@updateCommentsCount');
+Route::post('/forbidden-username/store', 'BackendController@storeForbiddenUsername');
+Route::delete('/appointed/destroy/{appointed}', 'BackendController@destroyAppointed');
+Route::post('/forbidden-channel-name/store', 'BackendController@storeForbiddenChannelName');
+Route::delete('/forbidden-username/destroy/{forbidden}', 'BackendController@destroyForbiddenUsername');
+Route::delete('/forbidden-channel-name/destroy/{forbidden}', 'BackendController@destroyForbiddenChannelName');
+Route::get('/backend/emails', 'EmailsController@index');
+Route::post('/emails/announcement/store', 'EmailsController@store');
+Route::post('/emails/announcement/send', 'EmailsController@send');
+Route::post('/backend/channel-removal-warnings/send', 'WarningsController@channelsRemoval');
+Route::get('/emails/announcement/preview', 'EmailsController@preview');
+
+// ssh control
+Route::post('/ssh/flush-all', 'SshController@flushAll');
+Route::post('/ssh/cache-clear', 'SshController@clearCache');
+
+// Passport
+Route::get('/apps', 'OAuthController@show');
+
 // catch wild routes
-Route::group(['middleware' => ['http2', 'auth', 'cors']], function () {
+Route::group(['middleware' => ['http2', 'auth']], function () {
     Route::get('/{any}', 'PagesController@welcome')->where('any', '.*');
 });
