@@ -1,5 +1,5 @@
 {
-	"authHost": "46.101.123.45",
+	"authHost": "https://www.caseroot.com",
 	"authEndpoint": "/broadcasting/auth",
 	"clients": [
 		{
@@ -9,24 +9,25 @@
 	],
 	"database": "redis",
 	"databaseConfig": {
-		"redis": {},
-		"sqlite": {
-			"databasePath": "/database/laravel-echo-server.sqlite"
+		"redis": {
+			"port": "6379",
+			"host": "127.0.0.1",
+			"password": "bVGVz+hOE/2kWzFEy492HqS2uFwDLIQRqjDH1ysZuN/9aGUcJEWGOFQBnaetLS4HJEPF+HY7Omqll7ec"
 		}
 	},
 	"devMode": false,
-	"host": "localhost",
+	"host": "null",
 	"port": "6001",
-	"protocol": "http",
+	"protocol": "https",
 	"socketio": {},
-	"sslCertPath": "",
-	"sslKeyPath": "",
+	"sslCertPath": "/etc/letsencrypt/live/caseroot.com/fullchain.pem",
+	"sslKeyPath": "/etc/letsencrypt/live/caseroot.com/privkey.pem",
 	"sslCertChainPath": "",
 	"sslPassphrase": "",
-	"apiOriginAllow":{
-		"allowCors" : true,
-		"allowOrigin" : "http://127.0.0.1",
-		"allowMethods" : "GET, POST",
-		"allowHeaders" : "Origin, Content-Type, X-Auth-Token, X-Requested-With, Accept, Authorization, X-CSRF-TOKEN, X-Socket-Id"
-	  }
+	"apiOriginAllow": {
+		"allowCors": true,
+		"allowOrigin": "*.*",
+		"allowMethods": "GET, POST",
+		"allowHeaders": "Origin, Content-Type, X-Auth-Token, X-Requested-With, Accept, Authorization, X-CSRF-TOKEN, X-Socket-Id"
+	}
 }

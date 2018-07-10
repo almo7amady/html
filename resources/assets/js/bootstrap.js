@@ -84,7 +84,7 @@ window.io = require('socket.io-client');
 if (Laravel.broadcasting.service == 'echo' && Laravel.broadcasting.echo.key.trim()) {
     window.Echo = new Echo({
         broadcaster: 'socket.io',
-        host: { path: '/socket.io' },
+        host: { path: 'https://socket.www.caseroot.com' },
         //key: Laravel.broadcasting.echo.key,
         //host: Laravel.broadcasting.echo.host + ':' + Laravel.broadcasting.echo.port
     });
