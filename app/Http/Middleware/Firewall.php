@@ -23,7 +23,10 @@ class Firewall
             return res(423, 'Sadly your IP address has been banned from accessing Case Root. If you believe this has been done by mistake, please contact almo7amady7@gmail.com.');
         }
 
-        return $next($request);
+        return $next($request)
+            ->header('Access-Control-Allow-Origin', '*')
+            ->header('Access-Control-Allow-Methods', 'GET, POST, PUT,         
+    DELETE, OPTIONS');
     }
 
     /**

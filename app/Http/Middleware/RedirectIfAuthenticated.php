@@ -22,6 +22,9 @@ class RedirectIfAuthenticated
             return redirect('/');
         }
 
-        return $next($request);
+        return $next($request)
+            ->header('Access-Control-Allow-Origin', '*')
+            ->header('Access-Control-Allow-Methods', 'GET, POST, PUT,         
+    DELETE, OPTIONS');
     }
 }

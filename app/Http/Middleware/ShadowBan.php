@@ -23,6 +23,9 @@ class ShadowBan
             return res(423, 'I hate to break it to you but your account has been banned.');
         }
 
-        return $next($request);
+        return $next($request)
+            ->header('Access-Control-Allow-Origin', '*')
+            ->header('Access-Control-Allow-Methods', 'GET, POST, PUT,         
+    DELETE, OPTIONS');
     }
 }
