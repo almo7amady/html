@@ -5,14 +5,14 @@
 	           @close="close"
 	           append-to-body
 	           class="user-select">
-		<div class="flex-center">
+<!--		<div class="flex-center">
 			<google-login-button></google-login-button>
 		</div>
 
 		<div class="align-center margin-top-bottom-1">
 			<strong>Or</strong>
 		</div>
-
+-->
 		<!-- login form  -->
 		<el-form label-position="top"
 		         v-if="isLogin"
