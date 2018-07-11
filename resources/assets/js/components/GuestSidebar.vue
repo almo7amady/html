@@ -4,12 +4,13 @@
 		     @keyup.enter="logMeIn">
 			<el-form label-position="top"
 			         label-width="10px">
+<!--
 				<google-login-button size="mini"></google-login-button>
 
 				<div class="align-center margin-top-bottom-1">
 					<strong>Or</strong>
 				</div>
-
+-->
 				<div class="margin-bottom-half">
 					<el-input placeholder="Username or email address..."
 					          name="username"
@@ -134,7 +135,7 @@
 
 <script>
 import Helpers from '../mixins/Helpers';
-import GoogleLoginButton from '../components/GoogleLoginButton';
+//import GoogleLoginButton from '../components/GoogleLoginButton';
 
 export default {
     mixins: [Helpers],

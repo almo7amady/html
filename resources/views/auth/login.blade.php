@@ -74,10 +74,11 @@
 				<el-button round type="success" size="medium" native-type="submit">
 					Login
 				</el-button> 
-
+<!--
 				<strong class="margin-sides-1">or</strong>
 
 				<google-login-button></google-login-button>
+-->
 			</div>
 		</el-form>
 	</div>

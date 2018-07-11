@@ -200,12 +200,12 @@
 // @keyup.enter="register"
 import Helpers from '../mixins/Helpers';
 import VueRecaptcha from 'vue-recaptcha';
-import GoogleLoginButton from '../components/GoogleLoginButton';
+//import GoogleLoginButton from '../components/GoogleLoginButton';
 
 export default {
     mixins: [Helpers],
 
-    components: { GoogleLoginButton, VueRecaptcha },
+    components: { VueRecaptcha },//GoogleLoginButton, 
 
     props: ['visible'],
 
