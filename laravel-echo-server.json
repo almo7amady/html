@@ -1,5 +1,5 @@
 {
-	"authHost": "https://www.caseroot.com",
+	"authHost": "www.caseroot.com",
 	"authEndpoint": "/broadcasting/auth",
 	"clients": [
 		{
@@ -16,7 +16,7 @@
 		}
 	},
 	"devMode": false,
-	"host": "https://www.caseroot.com",
+	"host": "www.caseroot.com",
 	"port": "6001",
 	"protocol": "https",
 	"socketio": {},
