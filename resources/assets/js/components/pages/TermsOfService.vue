@@ -22,7 +22,7 @@
 
         <section id="page" class="home-submissions">
             <p>
-                Case Root is a website for groups and individuals to communicate, meet, and contribute in an open atmosphere, resort to some of the most authentic materials online. The nature of this online materials might be funny, serious, offensive, scientific, political or anywhere in between. While participating, it’s crucial to remember this value above all others: be respectful to all users, so we all can enjoy Case Root for what it is.
+                Case Root is a website for groups and individuals to communicate, meet, and contribute in an open atmosphere, resort to some of the most authentic materials online. The nature of this online materials mostly will be medical but might be funny, serious, scientific or anywhere in between In our Social Root. While participating, it’s crucial to remember this value above all others: be respectful to all users, so we all can enjoy Case Root for what it is.
             </p>
 
             <h2 class="title">
