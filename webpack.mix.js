@@ -25,6 +25,6 @@ mix
     });
 
 // run versioning on production only
-if (mix.inProduction()) {
-    mix.version();
-}
+//if (mix.inProduction()) {
+ //   mix.version();
+//}
