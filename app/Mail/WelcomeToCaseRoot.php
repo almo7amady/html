@@ -6,7 +6,7 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class WelcomeToVoten extends Mailable
+class WelcomeToCaseRoot extends Mailable
 {
     use Queueable, SerializesModels;
 

@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
-use App\Mail\WelcomeToVoten;
+use App\Mail\WelcomeToCaseRoot;
 use App\PhotoTools;
 use App\User;
 use Auth;
@@ -111,7 +111,7 @@ class LoginController extends Controller
             ],
         ]);
 
-        \Mail::to($user->email)->queue(new WelcomeToVoten($user->username));
+        \Mail::to($user->email)->queue(new WelcomeToCaseRoot($user->username));
 
         // set user's default data into cache to save few queries
         $this->storeInRedis($user);

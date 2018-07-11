@@ -17,7 +17,7 @@
 .tour {
     position: absolute;
     background: #fff;
-    width: 400px;
+    width: 300px;
     // min-height: 100px;
     border-radius: 4px;
     border: 2px solid #afb5c2;

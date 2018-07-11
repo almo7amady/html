@@ -28,7 +28,7 @@
     <vue-progress-bar></vue-progress-bar>
 
     <div class="shade" v-if="showTour"></div>
-    <tour v-if="showTour && activeTour.id == 'os-notifications'" :position="{ top: '7em', left: '39%' }"></tour>
+    <tour v-if="showTour && activeTour.id == 'os-notifications'" :position="{ top: '7em' }"></tour>
 
     <div class="v-content-wrapper">
         <left-sidebar v-show="showSidebars"></left-sidebar>
