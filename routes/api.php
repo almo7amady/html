@@ -1,6 +1,6 @@
 <?php
 
-Route::group(['middleware' =>'cors', ['auth:api']], function () {
+Route::group(['middleware' => ['auth:api']], function () {
     // Administrator routes
     Route::post('/admin/check', 'AdminController@isAdministrator'); // checked 
     Route::get('/admin/users', 'AdminController@indexUsers'); // checked 
@@ -168,8 +168,6 @@ Route::group(['middleware' =>'cors', ['auth:api']], function () {
 ////////////////////////////////////////////////////////////////////////
 // Below routes are the twin routes for guests
 ////////////////////////////////////////////////////////////////////////
-Route::group(['middleware' =>'cors'], function () {
-
 Route::prefix('guest')->group(function () {
     Route::get('/users', 'UserController@getByUsername'); // checked 
     Route::get('/users/{user}', 'UserController@getById'); // checked 
@@ -194,5 +192,3 @@ Route::prefix('guest')->group(function () {
 
 Route::post('/token/login', 'Auth\LoginController@getAccessToken'); // checked 
 Route::post('/token/register', 'Auth\RegisterController@getAccessToken'); // checked 
-
-});
