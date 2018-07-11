@@ -74415,7 +74415,7 @@ img.emojione {
 .sidebar-left {
   -ms-flex-preferred-size: 4em;
       flex-basis: 4em;
-  background: #333;
+  background: #df7b00de;
   color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;

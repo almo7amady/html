@@ -1,3 +1,4 @@
+<!--
 <template>
     <el-button round href="/login/google"
             @click="openGoogle"
@@ -8,7 +9,7 @@
         </div>
     </el-button>
 </template>
-
+-->
 <script>
 export default {
     props: {

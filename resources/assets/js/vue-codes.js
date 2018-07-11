@@ -1,6 +1,6 @@
 import GuestSidebar from './components/GuestSidebar.vue';
 import AuthenticationModal from './components/AuthenticationModal.vue';
-//import GoogleLoginButton from './components/GoogleLoginButton.vue';
+import GoogleLoginButton from './components/GoogleLoginButton.vue';
 
 import Feedback from './components/Feedback.vue';
 import Notifications from './components/Notifications.vue';
