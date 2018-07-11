@@ -140,7 +140,7 @@
 							   ref="recaptcha"
 				               @expired="reCaptchaExpired"></vue-recaptcha>
 			</el-form-item>
-
+<!--
 			<el-form-item>
 				<span>
 					By clicking "Sign up", you agree to our
@@ -150,6 +150,7 @@
 					<router-link to="/privacy-policy">privacy policy</router-link>.
 				</span>
 			</el-form-item>
+-->
 		</el-form>
 
 		<span slot="footer"

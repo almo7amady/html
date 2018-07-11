@@ -1,10 +1,10 @@
-//import Raven from 'raven-js';
-//import RavenVue from 'raven-js/plugins/vue';
-//if (Laravel.env !== 'productin') {
-  //Raven.config(Laravel.sentry)
-    //    .addPlugin(RavenVue, Vue)
-      //  .install();
-//}
+import Raven from 'raven-js';
+import RavenVue from 'raven-js/plugins/vue';
+if (Laravel.env !== 'productin') {
+    Raven.config(Laravel.sentry)
+        .addPlugin(RavenVue, Vue)
+        .install();
+}
 
 window.moment = require('moment-timezone');
 window.moment.tz.setDefault('UTC');
