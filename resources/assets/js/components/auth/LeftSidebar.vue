@@ -125,7 +125,7 @@
 				</a>
 			</el-tooltip>
 
-			<!-- Help Center for guests -->
+			<!-- Help Center for guests
 			<el-tooltip content="Help Center"
 						placement="right"
 						transition="false"
@@ -138,6 +138,7 @@
 					aria-hidden="true"></i>
 				</a>
 			</el-tooltip>
+			 -->
 		</div>
 
 		<div class="bottom"
@@ -169,7 +170,7 @@
 				</a>
 			</el-tooltip>
 
-			<!-- Help Center -->
+			<!-- Help Center 
 			<el-tooltip content="Help Center"
 			            placement="right"
 			            transition="false"
@@ -181,6 +182,7 @@
 					   aria-hidden="true"></i>
 				</a>
 			</el-tooltip>
+			-->
 		</div>
 	</div>
 </template>

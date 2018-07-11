@@ -76,18 +76,18 @@
 								             class="item">Privacy policy</router-link>
 							</li>
 							<li>
-								<a href="https://medium.com/@almohamady7"
+								<a href="https://www.caseroot.com/c/Community"
 								   class="item"
-								   target="_blank">Blog</a>
+								   target="_blank">Community</a>
 							</li>
 							<li>
 								<router-link to="/credits"
 								             class="item">Credits</router-link>
 							</li>
 							<li>
-								<a href="https://github.com/almo7amady"
+								<a href="https://www.facebook.com/dolaelmo7amady"
 								   class="item"
-								   target="_blank">Owner github</a>
+								   target="_blank">Owner's facebook account</a>
 							</li>
 						</div>
 					</el-collapse-transition>

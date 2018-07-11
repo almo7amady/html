@@ -133,7 +133,7 @@
                 
                 <div class="item">
                     <h3>
-                        <a href="https://www.algolia.com/referrals/fb684d54/join" rel="nofollow">
+                        <a href="https://www.algolia.com" rel="nofollow">
                             <img src="/landing/credits/algolia.svg">
                         </a>
                     </h3>

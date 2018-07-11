@@ -14,7 +14,7 @@ Thank you for being a Case Root moderator!<br>
 The Case Root Team
 
 @component('mail::subcopy')
-    Need help? ask [community](https://www.caseroot.com/c/CaseRootSupport), or hit us up on Twitter [@elmo7amady](https://twitter.com/elmo7amady).
+    Need help? ask [community](https://www.caseroot.com/c/Community), or hit us up on Twitter [@elmo7amady](https://twitter.com/elmo7amady).
     Want to give us feedback? Let us know what you think on our [feedback page](https://www.caseroot.com?feedback=1).
 @endcomponent
 

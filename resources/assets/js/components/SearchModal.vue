@@ -34,7 +34,7 @@
         <div class="middle background-white">
             <!--Algolia Logo -->
             <div class="algolia desktop-only">
-                <a href="https://www.algolia.com/referrals/fb684d54/join" target="_blank" rel="nofollow">
+                <a href="https://www.algolia.com" target="_blank" rel="nofollow">
                     <img src="/imgs/algolia-powered-by.svg" alt="Search by algolia">
                 </a>
             </div>
