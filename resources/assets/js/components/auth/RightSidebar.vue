@@ -52,7 +52,7 @@
 					<li class="item"
 					    @click="Store.modals.keyboardShortcutsGuide.show = true">Keyboard shortcuts</li>
 					<li>
-						<a href="https://www.caseroot.com?feedback=1/"
+						<a href="https://www.caseroot.com#feedback"
 						   target="_blank"
 						   class="item">Help center</a>
 					</li>
