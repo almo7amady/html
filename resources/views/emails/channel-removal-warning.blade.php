@@ -1,6 +1,6 @@
 @component('mail::message')
 
-# Dear {{ '@' . $user->username }}, moderator of [#{{ $channel->name }}](https://caseroot.com/c/{{ $channel->name }}?ref=email)
+# Dear {{ '@' . $user->username }}, moderator of [#{{ $channel->name }}](https://www.caseroot.com/c/{{ $channel->name }}?ref=email)
 
 During the beta phase, to keep the community clean and active, we are deleting all the inactive roots that haven't had any activities in the last 60 days. Your **#{{ $channel->name }}** root hasn't had any activities in **{{ optional($channel->submissions()->orderBy('created_at', 'desc')->first())->created_at->diffInDays() }} days**. Thus, In case you intend to keep your root alive, please start posting to it. Otherwise, just ignore this email.
 

@@ -90,11 +90,11 @@
 
             <tr>
                 <td>
-                    <br> ```if (url == "voten") {<br> return "welcome"<br> }```
+                    <br> ```if (url == "Case Root") {<br> return "welcome"<br> }```
                 </td>
 
                 <td>
-<pre>if (url == "voten") {
+<pre>if (url == "Case Root") {
 return "welcome"
 }</pre>
                 </td>
