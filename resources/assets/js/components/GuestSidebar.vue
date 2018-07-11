@@ -134,7 +134,7 @@
 
 <script>
 import Helpers from '../mixins/Helpers';
-import GoogleLoginButton from '../components/GoogleLoginButton';
+//import GoogleLoginButton from '../components/GoogleLoginButton';
 
 export default {
     mixins: [Helpers],

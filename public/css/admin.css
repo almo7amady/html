@@ -334,7 +334,7 @@ img {
 
 .red-text,
 .red-text i {
-  color: #3e2d1b !important;
+  color: #db6e6e !important;
 }
 
 .fa-8x {
@@ -399,7 +399,7 @@ hr {
 }
 
 .red-background {
-  background: #3e2d1b !important;
+  background: #db6e6e !important;
 }
 
 .green-background {
@@ -415,11 +415,11 @@ hr {
 }
 
 .go-red {
-  color: #3e2d1b !important;
+  color: #db6e6e !important;
 }
 
 .h-red:hover {
-  color: #3e2d1b !important;
+  color: #db6e6e !important;
 }
 
 .go-black,
