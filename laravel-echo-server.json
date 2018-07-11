@@ -1,6 +1,5 @@
 {
-	"appKey": "base64:5cayeeY2xCzzm3Drr+6bDMnGzxMfC0bc6HMzWya+7Ls=",
-	"authHost": "",
+	"authHost": "https://www.caseroot.com",
 	"authEndpoint": "/broadcasting/auth",
 	"clients": [
 		{
@@ -17,7 +16,7 @@
 		}
 	},
 	"devMode": false,
-	"host": "null",
+	"host": "https://www.caseroot.com",
 	"port": "6001",
 	"protocol": "https",
 	"socketio": {},
