@@ -8,7 +8,7 @@ Route::redirect('/source-code', 'https://github.com/almo7amady', 301);
 Route::redirect('/blog', 'https://medium.com/@almohamady7', 301);
 Route::redirect('/dev', '/c/CaseRootdev', 301);
 Route::redirect('/developers', '/c/CaseRootdev', 301);
-
+Route::group(['middleware' =>'cors'], function () {
 Route::group(['middleware' => ['http2']], function () {
     // Authintication routes
     Route::auth();
@@ -97,4 +97,6 @@ Route::get('/apps', 'OAuthController@show');
 // catch wild routes
 Route::group(['middleware' => ['http2', 'auth']], function () {
     Route::get('/{any}', 'PagesController@welcome')->where('any', '.*');
+});
+
 });
