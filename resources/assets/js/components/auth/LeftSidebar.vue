@@ -132,7 +132,7 @@
 						:open-delay="500"
 						v-if="isGuest">
 				<a class="item"
-				href="https://www.caseroot.com?feedback=1/"
+				href="https://www.caseroot.com/about#feedback"
 				target="_blank">
 					<i class="el-icon-question"
 					aria-hidden="true"></i>

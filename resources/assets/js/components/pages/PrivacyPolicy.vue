@@ -111,13 +111,6 @@
                 Unlike other social websites sharing your information with third parties for many reasons, Case Root is conservative about keeping your information secret. We might connect with third parties in the future but we will never share your information with them.
             </p>
 
-            <h2 class="title">
-                Children under 13
-            </h2>
-
-            <p>
-                We do not think contents on websites like ours, are intended for individuals under 13. Therefore, if you are under 13, you are not allowed to make an account or use our services.
-            </p>
 
             <hr>
 
