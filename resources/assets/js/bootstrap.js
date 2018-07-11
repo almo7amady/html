@@ -1,5 +1,5 @@
-import Raven from 'raven-js';
-import RavenVue from 'raven-js/plugins/vue';
+//import Raven from 'raven-js';
+//import RavenVue from 'raven-js/plugins/vue';
 //if (Laravel.env !== 'local') {
   //  Raven.config(Laravel.sentry)
     //    .addPlugin(RavenVue, Vue)
