@@ -140,7 +140,7 @@ import Helpers from '../mixins/Helpers';
 export default {
     mixins: [Helpers],
 
-    components: { GoogleLoginButton },
+    //components: { GoogleLoginButton },
 
     data() {
         return {
