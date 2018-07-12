@@ -66057,7 +66057,6 @@ a.nav-item.is-tab.is-active {
     flex-grow: 1;
     -webkit-box-pack: end;
     -ms-flex-pack: end;
-    justify-content: flex-end;
   }
 }
 
@@ -70048,8 +70047,8 @@ span {
 
 .flex1 {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+      -ms-flex: auto;
+          flex: auto;
 }
 
 .flex-space {
@@ -70781,8 +70780,8 @@ img {
 
 .flex1 {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+      -ms-flex: auto;
+          flex: auto;
 }
 
 .flex-align-center {
@@ -72668,9 +72667,9 @@ a.plus-link-circle:hover {
 }
 
 .submission-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
 .submission-item .title {

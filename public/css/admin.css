@@ -164,8 +164,8 @@ img {
 
 .flex1 {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+      -ms-flex: auto;
+          flex: auto;
 }
 
 .flex-align-center {
