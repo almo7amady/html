@@ -26,18 +26,18 @@ class SearchController extends Controller
     public function index(Request $request)
     {
         $this->validate($request, [
-            'type'     => 'required|in:Roots,Cases,Users,channels,submissions,users',
+            'type'     => 'required|in:Roots,Cases,Users,roots,cases,users',
             'keyword'  => 'required|string',
         ]);
 
-        switch (strtolower($request->input('type', 'channels'))) {
-            case 'channels':
+        switch (strtolower($request->input('type', 'roots'))) {
+            case 'roots':
                 return ChannelResource::collection(
                     Channel::search($request->keyword)->paginate(20)
                 );
                 break;
             
-            case 'submissions':
+            case 'cases':
                 return SubmissionResource::collection(
                     $this->sugarFilter(
                         Submission::search($request->keyword)->paginate(20)
