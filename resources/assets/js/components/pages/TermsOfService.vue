@@ -40,12 +40,6 @@
                 </li>
 
                 <li>
-                    <b>Porn</b>:
-                    Pornography content is not allowed on Case Root. No matter the kind or category. However, NSFW content is allowed.
-                    For example, you may post an informative medical case photoes containing body parts(and tag it as NSFW), but you shouldn't post an identification image.
-                </li>
-
-                <li>
                     <b>Encourage or stimulate violence</b>: Do not post materials that stimulate harm against any person or groups of people.
                     Furthermore, if you're going to post something violent in nature, think about including the NSFW tag.
                 </li>

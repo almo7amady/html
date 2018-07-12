@@ -14,7 +14,7 @@ return [
 
     'name'             => 'Case Root',
     'title'            => 'Case Root: Where your initiation matters',
-    'description'      => 'An informative, beautiful, highly customizable yet deadly simple, and warm community. ',
+    'description'      => 'An informative, beautiful, highly customizable yet deadly simple, and warm healthcare community. Tutorial can be found here (https://www.youtube.com/watch?v=qSSGzTd6NKg&t=406s). ',
     'logo'             => 'favicon.png',
     'twitter_username' => '@elmo7amady',
     'twitter-url'      => 'https://twitter.com/elmo7amady',
