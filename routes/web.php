@@ -63,7 +63,7 @@ Route::get('/backend/channels', 'BackendController@showChannels');
 Route::get('/backend/channels/{channel}', 'BackendController@showChannel');
 Route::get('/backend/users', 'BackendController@showUsers');
 Route::get('/backend/users/{user}', 'BackendController@showUser');
-Route::delete('/backend/users/destroy', 'UserController@destroy');
+Route::delete('/backend/users/destroy', 'UserController@destroyAsVotenAdministrator');
 Route::post('/ban-user', 'BanController@storeAsVotenAdministrator');
 Route::delete('/ban-user/destroy', 'BanController@destroyAsVotenAdministrator');
 Route::post('/backend/firewall/ip/store', 'FirewallController@store');

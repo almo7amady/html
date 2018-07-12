@@ -14,7 +14,11 @@ define('LARAVEL_START', microtime(true));
 |
 */
 
-require __DIR__.'/../vendor/autoload.php';
+//require __DIR__.'/../vendor/autoload.php';
+
+//$client = new \AlgoliaSearch\Client env('BROADCAST_DRIVER', 'BROADCAST_DRIVER');
+
+//$index = $client->initIndex env('BROADCAST_DRIVER'),;
 
 
 

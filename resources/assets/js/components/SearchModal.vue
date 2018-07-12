@@ -105,7 +105,7 @@ export default {
 
             if (this.$route.query.search) {
                 this.filter = this.$route.query.search;
-                this.type = 'Submissions';
+                this.type = 'Cases';
                 this.search();
             }
         });
@@ -126,7 +126,7 @@ export default {
     computed: {
         noSubmissions() {
             return (
-                this.type == 'Submissions' &&
+                this.type == 'Cases' &&
                 this.submissions.length == 0 &&
                 !this.loading
             );
@@ -134,7 +134,7 @@ export default {
 
         noChannels() {
             return (
-                this.type == 'Channels' &&
+                this.type == 'Roots' &&
                 this.channels.length == 0 &&
                 !this.loading
             );
@@ -185,7 +185,7 @@ export default {
                     }
                 })
                 .then((response) => {
-                    if (this.type == 'Channels') {
+                    if (this.type == 'Roots') {
                         this.channels = response.data.data;
                     }
 
@@ -193,7 +193,7 @@ export default {
                         this.users = response.data.data;
                     }
 
-                    if (this.type == 'Submissions') {
+                    if (this.type == 'Cases') {
                         this.submissions = response.data.data;
                     }
 
