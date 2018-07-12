@@ -9,7 +9,7 @@
 	<meta property="og:site_name" content="Case Root" />
 
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:site" content="@elmo7amady" />
+	<meta name="twitter:site" content="@case_root" />
 	<meta name="twitter:title" content="{{ $submission->title }} - Case Root" />
 
 	@if ($submission->type == "text")

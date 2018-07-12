@@ -39,8 +39,8 @@ class UserSettingsController extends Controller
             'name'     => $request->name,
             'bio'      => $request->bio,
             'info'     => [
-                'website' => $request->website,
-                'twitter' => $request->twitter,
+            'website' => $request->website,
+            'twitter' => $request->twitter,
             ],
         ]);
 
