@@ -26,7 +26,7 @@ class SearchController extends Controller
     public function index(Request $request)
     {
         $this->validate($request, [
-            'type'     => 'required|in:Channels,Submissions,Users,channels,submissions,users',
+            'type'     => 'required|in:Roots,Cases,Users,channels,submissions,users',
             'keyword'  => 'required|string',
         ]);
 
