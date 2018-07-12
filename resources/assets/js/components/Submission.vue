@@ -4,6 +4,8 @@
 }
 
 .submission-item {
+    display: inline-flex;
+
     &:hover {
         background-color: #f5f8fa;
     }
