@@ -41,13 +41,13 @@
 
 
             <div class="col-7 user-select padding-1">
-                <ul class="v-contact-list" v-if="type == 'Channels'">
+                <ul class="v-contact-list" v-if="type == 'Roots'">
                     <channel-search-item v-for="channel in channels" :list="channel"
                                           :key="channel.id"></channel-search-item>
                 </ul>
 
                 <h1 class="align-center" v-if="noChannels && filter.trim()">
-                    No channel matched your keywords
+                    No Root matched your keywords
                 </h1>
 
                 <ul class="v-search-items" v-if="type == 'Users'">
@@ -55,14 +55,14 @@
                 </ul>
 
                 <h1 class="align-center" v-if="noUsers && filter.trim()">
-                    No user matched your keywords
+                    No users matched your keywords
                 </h1>
 
-                <div v-if="type == 'Submissions'">
+                <div v-if="type == 'Cases'">
                     <submission v-for="submission in submissions" :list="submission" :key="submission.id"></submission>
 
                     <h1 class="align-center" v-if="noSubmissions && filter.trim()">
-                        No Case matched your keywords
+                        No Cases matched your keywords
                     </h1>
                 </div>
             </div>

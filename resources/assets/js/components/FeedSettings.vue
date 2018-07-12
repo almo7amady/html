@@ -14,7 +14,7 @@
 			         :model="form">
 				<div class="form-toggle">
 					<span>Include NSFW Cases:
-						<small>(You must be a Medical Student or A Physician)</small>
+						<small>(You must be a Medical Student, A Physician or A Healthcare worker)</small>
 					</span>
 					<el-switch v-model="form.include_nsfw_submissions"></el-switch>
 				</div>

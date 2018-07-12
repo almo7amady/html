@@ -39,9 +39,9 @@ class SearchController extends Controller
             
             case 'submissions':
                 return SubmissionResource::collection(
-                //    $this->sugarFilter(
+                    $this->sugarFilter(
                         Submission::search($request->keyword)->paginate(20)
-               //     )
+                    )
                 );
                 break;
             

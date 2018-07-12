@@ -154,7 +154,7 @@
             </h2>
 
             <p>
-                We do think contents on websites like ours, are intended for medical students and interns as well as physicians.
+                We do think contents on websites like ours, are intended for medical students and interns as well as physicians and healthcare workers.
             </p>
         </section>
 

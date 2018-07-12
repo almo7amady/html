@@ -8,7 +8,7 @@
     @yield('head')
 
     @yield('title')
-
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
     <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
 
