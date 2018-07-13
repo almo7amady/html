@@ -10,9 +10,6 @@ Route::redirect('/dev', '/c/CaseRootdev', 301);
 Route::redirect('/developers', '/c/CaseRootdev', 301);
 
 Route::group(['middleware' => ['http2']], function () {
-    Route::get('/', 'HomeController@homePage');//->middleware('correct-view')
-
-   
     // Authintication routes
     Route::auth();
     Route::get('/logout', 'Auth\LoginController@logout');
@@ -24,6 +21,7 @@ Route::group(['middleware' => ['http2']], function () {
     Route::get('/email/verify', 'Auth\VerificationController@verifyEmailAddress');
 
     // Public Pages
+    Route::get('/', 'HomeController@homePage')->middleware('correct-view');
     Route::get('/credits', 'PagesController@welcome');
     Route::get('/tos', 'PagesController@welcome');
     Route::get('/about', 'PagesController@welcome');

@@ -49,7 +49,7 @@ class HomeController extends Controller
         ]);
         $submissions = (new Submission())->newQuery();
 
-        switch (strtolower($request->input('filter', 'subscribed'))) {
+        switch (strtolower($request->input('filter', 'all'))) {
             case 'all':
                 // guest what? we don't have to do anything :|
                 break;
