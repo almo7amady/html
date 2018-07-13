@@ -19,7 +19,10 @@
 					<el-button round
 					           slot="append"
 					           type="primary"
-					           v-if="submissionType === 'link'">
+					           v-if="submitURL && submissionType === 'link'"
+					           @click="getTitle(submitURL)"
+					           :loading="loadingTitle">
+						Suggest
 					</el-button>
 				</el-input>
 
