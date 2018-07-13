@@ -4,7 +4,7 @@
     >
         <submission :list="submission" v-for="submission in uniqueList" v-bind:key="submission.id"></submission>
     
-        <no-content v-if="nothingFound" :text="'No submissions here'"></no-content>
+        <no-content v-if="nothingFound" :text="'No Cases here yet'"></no-content>
     
         <loading v-if="loading && page > 1"></loading>
     

@@ -54,7 +54,8 @@
             </div>
 
             <no-content v-if="Store.page.home.nothingFound"
-                        :text="'No Subscribtions at this time. Try subscribing to more Roots or adjusting your feed filters.'"></no-content>
+                        :text="'No Subscribtions at this time. Try subscribing to more Roots or adjusting your feed filters.'">
+            </no-content>
 
             <loading v-if="loading && page > 1"></loading>
 

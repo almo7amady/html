@@ -48,7 +48,7 @@
 						             class="item">Discover Roots</router-link>
 					</li>
 					<li class="item"
-					    @click="Store.modals.newChannel.show = true">Iniciate a new Root</li>
+					    @click="Store.modals.newChannel.show = true">Initiate a new Root</li>
 					<li class="item"
 					    @click="Store.modals.keyboardShortcutsGuide.show = true">Keyboard shortcuts</li>
 					<li>
@@ -65,7 +65,7 @@
 							</li>
 							<li>
 								<a href="mailto:almo7amady7@gmail.com"
-								   class="item">Contact Us</a>
+								   class="item">Contact us</a>
 							</li>
 							<li>
 								<router-link to="/tos"

@@ -111,7 +111,7 @@
 					           @click="$eventHub.$emit('submit')"
 					           v-if="!isGuest"
 					           size="mini">
-						Submit
+						Create ne Case
 					</el-button>
 
 					<el-button round
