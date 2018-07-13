@@ -48,7 +48,7 @@
 						             class="item">Discover Roots</router-link>
 					</li>
 					<li class="item"
-					    @click="Store.modals.newRoot.show = true">Initiate a new Root</li>
+					    @click="Store.modals.newChannel.show = true">Initiate New Root</li>
 					<li class="item"
 					    @click="Store.modals.keyboardShortcutsGuide.show = true">Keyboard shortcuts</li>
 					<li>

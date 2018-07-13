@@ -311,7 +311,7 @@ export default {
                 this.submitApi();
                 window.location.hash = 'newSubmission';
             } else {
-                if (window.location.hash == '#newCase') {
+                if (window.location.hash == '#newSubmission') {
                     history.go(-1);
                 }
             }

@@ -7,8 +7,8 @@ import Notifications from './components/Notifications.vue';
 import Messages from './components/Messages.vue';
 import Preferences from './components/Preferences.vue';
 import RightSidebar from './components/auth/RightSidebar.vue';
-import NewSubmission from './components/NewSubmission.vue';
-import newRoot from './components/newChannel.vue';
+import newSubmission from './components/NewSubmission.vue';
+import newChannel from './components/newChannel.vue';
 import ReportSubmission from './components/ReportSubmission.vue';
 import ReportComment from './components/ReportComment.vue';
 import FeedSettings from './components/FeedSettings.vue';
@@ -65,7 +65,7 @@ window.app = new Vue({
         FeedSettings,
         Notifications,
         ReportComment,
-        NewSubmission,
+        newSubmission,
         Announcement,
         RightSidebar,
         GuestSidebar,
@@ -75,7 +75,7 @@ window.app = new Vue({
         BanUserModal, 
         SearchModal,
         Preferences,
-        newRoot,
+        newChannel,
         GifPlayer,
         NotFound,
         Messages,
@@ -250,8 +250,8 @@ window.app = new Vue({
          *
          * @return void
          */
-        shownewRoot() {
-            Store.modals.newRoot.show = true;
+        shownewChannel() {
+            Store.modals.newChannel.show = true;
         },
 
         /**
@@ -293,7 +293,7 @@ window.app = new Vue({
 
             if (event.altKey && event.keyCode == 67) {
                 // alt + c
-                this.shownewRoot();
+                this.shownewChannel();
                 return;
             }
 

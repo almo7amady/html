@@ -99,9 +99,9 @@ export default {
     watch: {
         visible() {
             if (this.visible) {
-                window.location.hash = 'newRoot';
+                window.location.hash = 'newChannel';
             } else {
-                if (window.location.hash == '#newRoot') {
+                if (window.location.hash == '#newChannel') {
                     history.go(-1);
                 }
             }
