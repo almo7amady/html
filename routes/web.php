@@ -8,7 +8,6 @@ Route::redirect('/source-code', 'https://github.com/almo7amady', 301);
 Route::redirect('/blog', 'https://medium.com/@almohamady7', 301);
 Route::redirect('/dev', '/c/CaseRootdev', 301);
 Route::redirect('/developers', '/c/CaseRootdev', 301);
-Route::get('/', 'HomeController@homePage');//->middleware('correct-view')
 
 Route::group(['middleware' => ['http2']], function () {
     // Authintication routes
@@ -22,6 +21,7 @@ Route::group(['middleware' => ['http2']], function () {
     Route::get('/email/verify', 'Auth\VerificationController@verifyEmailAddress');
 
     // Public Pages
+    Route::get('/', 'HomeController@homePage')->middleware('correct-view');
     Route::get('/credits', 'PagesController@welcome');
     Route::get('/tos', 'PagesController@welcome');
     Route::get('/about', 'PagesController@welcome');
