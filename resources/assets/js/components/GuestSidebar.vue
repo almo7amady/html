@@ -126,8 +126,8 @@
 				<a href="mailto:barakatahmed@gmail.com">Press</a>
 			</li>
 			<li>
-				<a href="https://github.com/almo7amady"
-				   target="_blank">Owner github</a>
+				<a href="https://www.facebook.com/caseroot"
+				   target="_blank">Facebook Page</a>
 			</li>
 		</ul>
 	</div>
