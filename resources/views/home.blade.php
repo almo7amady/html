@@ -40,8 +40,8 @@
 				}
 			},
 		 "sameAs": [
-			 "https://www.facebook.com/www.caseroot.com/",
-			 "https://twitter.com/elmo7amady"
+			 "https://www.facebook.com/caseroot",
+			 "https://twitter.com/case-root"
 		 ],
 		 "potentialAction": {
 			"@type": "SearchAction",

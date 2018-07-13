@@ -85,9 +85,9 @@
 								             class="item">Credits</router-link>
 							</li>
 							<li>
-								<a href="https://www.facebook.com/dolaelmo7amady"
+								<a href="https://www.facebook.com/caseroot"
 								   class="item"
-								   target="_blank">Owner's facebook account</a>
+								   target="_blank">Facebook Page</a>
 							</li>
 						</div>
 					</el-collapse-transition>

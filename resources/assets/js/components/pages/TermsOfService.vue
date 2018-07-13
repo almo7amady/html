@@ -51,25 +51,7 @@
                     to the point where they no longer feel that it's safe to post online or are in fear of their real life safety is.
                 </li>
 
-                <li>
-                    <b>Are personal and confidential information</b>: Case Root is pro-free speech,
-                    but it is not okay to post someone's personal information or post any link directing to such stuff.
-                    This includes links to public Facebook pages and screenshots of Facebook pages with the names still readable.
-                    We all get outraged by the ignorant things people say and do online,
-                    but exposing personal information can hurt innocent people, and personal information found online (and elsewhere) is often false or out of date. Posting someone's personal information will get you banned. When posting screenshots, be sure to edit out any personally identifiable information. Public figures can be an exception to this rule, such as posting professional links to contact a congressman or the CEO of a company.
-                    But don't post anything inviting harassment, don't harass, and don't cheer on or like obvious vigilantism.
-                </li>
-
-                <li>
-                    <b>Impersonate someone in a misleading or deceptive manner</b>:
-                    Impersonating someone in a misleading or deceptive manner is not allowed. However, satire and parody are ok.
-                </li>
-
-                <li>
-                    <b>Are spam</b>: Sometimes spam is obvious, but often it is hard to figure out. 
-                    If you are posting your own content and other participants appreciate and like your posts, you shouldn't have anything to worry about BUT: If your activities on Case Root consists mainly of sending links only about a certain topic, you should be careful. Additionally, if you do not engage in other conversations and different activities, you may be considered a spammer and banned from Case Root. If your contributions are often off-topic or not relevant to the community you are posting in, you may be considered a spammer. If you flood a Case Root channel with posts or comments, you may be considered a spammer. It is better to send a message to the moderators of the community you'd like to submit to. They'll probably appreciate the advance notice.
-                    Case Root Roots are allowed to have their additional rules. Thus, they can decide what is spam and what is not.
-                </li>
+               
             </ul>
 
 

@@ -18,7 +18,7 @@ return [
     'logo'             => 'favicon.png',
     'twitter_username' => '@case_root',
     'twitter-url'      => 'https://twitter.com/elmo7amady',
-    'facebook_url'     => 'https://www.facebook.com/dolaelmo7amady',
+    'facebook_url'     => 'https://www.facebook.com/caseroot',
     'blog_url'         => 'https://medium.com/@almohamady7',
     'favicon'          => env('FAVICON_PATH', '/imgs/favicon.png'), 
 

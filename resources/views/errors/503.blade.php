@@ -73,17 +73,14 @@
             </div>
 
             <div class="footer">
-                <a href="https://twitter.com/elmo7amady">
+                <a href="https://twitter.com/case-root">
                     Twitter
                 </a>
 
-                <a href="https://www.facebook.com/dolaelmo7amady">
+                <a href="https://www.facebook.com/caseroot">
                     Facebook
                 </a>
 
-                <a href="https://medium.com/@almohamady7">
-                    Blog
-                </a>
             </div>
         </div>
     </body>
