@@ -11,14 +11,14 @@
 
 			<div class="channel-suggestion">
 				<div class="avatar">
-					<router-link :to="'/r/' + channel.name">
+					<router-link :to="'/c/' + channel.name">
 						<img :src="channel.avatar" :alt="channel.name">
 					</router-link>
 				</div>
 
 				<div class="flex1">
 					<h2 class="word-break">
-						<router-link :to="'/r/' + channel.name">
+						<router-link :to="'/c/' + channel.name">
 							<i class="v-icon v-channel" aria-hidden="true"></i>{{ channel.name }}
 						</router-link>
 					</h2>

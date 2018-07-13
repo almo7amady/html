@@ -1,14 +1,14 @@
 <template>
 	<section class="bookmarked-item user-select find-channels">
 		<div class="avatar">
-			<router-link :to="'/r/' + list.name">
+			<router-link :to="'/c/' + list.name">
 				<img :src="list.avatar" :alt="list.name">
 			</router-link>
 		</div>
 
 		<div class="flex1">
 			<h2>
-				<router-link :to="'/r/' + list.name">
+				<router-link :to="'/c/' + list.name">
 					{{ list.name }}
 				</router-link>
 			</h2>

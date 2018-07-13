@@ -78,13 +78,13 @@
 		  "@type":"SiteNavigationElement",
 		  "position":4,
 		  "name": "#Community",
-		  "url":"https://www.caseroot.com/r/Community"
+		  "url":"https://www.caseroot.com/c/Community"
 		},
 		{
 		  "@type":"SiteNavigationElement",
 		  "position":5,
 		  "name": "#Social",
-		  "url":"https://www.caseroot.com/r/Social"
+		  "url":"https://www.caseroot.com/c/Social"
 		}
 	  ]
 	}

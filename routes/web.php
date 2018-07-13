@@ -6,8 +6,8 @@ Route::redirect('/help', 'https://www.caseroot.com?feedback=1', 301);
 Route::redirect('/help-center', 'https://www.caseroot.com?feedback=1', 301);
 Route::redirect('/source-code', 'https://github.com/almo7amady', 301);
 Route::redirect('/blog', 'https://medium.com/@almohamady7', 301);
-Route::redirect('/dev', '/r/CaseRootdev', 301);
-Route::redirect('/developers', '/r/CaseRootdev', 301);
+Route::redirect('/dev', '/c/CaseRootdev', 301);
+Route::redirect('/developers', '/c/CaseRootdev', 301);
 
 Route::group(['middleware' => ['http2']], function () {
     // Authintication routes
@@ -28,8 +28,8 @@ Route::group(['middleware' => ['http2']], function () {
     Route::get('/privacy-policy', 'PagesController@welcome');
 
     // guest browsing routes
-    Route::get('/r/{channel}', 'ChannelController@show')->middleware('correct-view');
-    Route::get('/r/{channel}/{slug}', 'SubmissionController@show')->middleware('correct-view');
+    Route::get('/c/{channel}', 'ChannelController@show')->middleware('correct-view');
+    Route::get('/c/{channel}/{slug}', 'SubmissionController@show')->middleware('correct-view');
     Route::get('/@{username}', 'UserController@showSubmissions')->middleware('correct-view');
     Route::get('/@{username}/comments', 'UserController@showComments')->middleware('correct-view');
 

@@ -67,7 +67,7 @@ class BecameModerator extends Notification implements ShouldBroadcast
     public function toArray($notifiable)
     {
         return [
-            'url'      => '/r/'.$this->channel->name.'/mod',
+            'url'      => '/c/'.$this->channel->name.'/mod',
             'name'     => $this->channel->name,
             'avatar'   => $this->channel->avatar,
             'body'     => 'You are now moderating '.'CaseRoot - '.$this->channel->name,

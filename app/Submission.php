@@ -97,7 +97,7 @@ class Submission extends Model
      */
     public function url()
     {
-        return '/r/'.$this->channel_name.'/'.$this->slug;
+        return '/c/'.$this->channel_name.'/'.$this->slug;
     }
 
     /**

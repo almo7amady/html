@@ -66,7 +66,7 @@ export default {
 
         goToSubmission() {
             this.$router.push(
-                '/r/' +
+                '/c/' +
                     this.submission.channel_name +
                     '/' +
                     this.submission.slug

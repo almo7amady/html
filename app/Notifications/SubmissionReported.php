@@ -64,7 +64,7 @@ class SubmissionReported extends Notification implements ShouldBroadcast
     public function toArray($notifiable)
     {
         return [
-            'url'    => '/r/'.$this->channel->name.'/mod/reports/submissions/',
+            'url'    => '/c/'.$this->channel->name.'/mod/reports/submissions/',
             'name'   => $this->channel->name,
             'avatar' => $this->channel->avatar,
             'body'   => 'Submission reported at CaseRoot - '.$this->channel->name,

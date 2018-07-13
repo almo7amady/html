@@ -371,7 +371,7 @@ export default {
                     this.loading = false;
 
                     Store.state.submissions.likes.push(response.data.data.id);
-                    this.$router.push('/r/' + this.selectedCat + '/' + response.data.data.slug);
+                    this.$router.push('/c/' + this.selectedCat + '/' + response.data.data.slug);
 
                     this.close();
                     this.reset();

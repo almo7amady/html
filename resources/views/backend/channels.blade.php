@@ -54,7 +54,7 @@
                     @foreach ($channels as $c)
                         <tr>
                             <td>
-                                <a href="/r/{{ $c->name }}" target="_blank">
+                                <a href="/c/{{ $c->name }}" target="_blank">
                                     <img src="{{ $c->avatar }}" class="image is-32x32" alt="{{ $c->name }}">
                                 </a>
                             </td>

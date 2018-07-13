@@ -4,7 +4,7 @@
 			<i class="v-left"></i>
 		</button>
 
-		<router-link :to="'/r/' + name">
+		<router-link :to="'/c/' + name">
 			<img :src="avatar" :alt="name">
 
 			<h2>

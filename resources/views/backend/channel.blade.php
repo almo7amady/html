@@ -10,7 +10,7 @@
         <div class="columns">
             <div class="column is-one-quarter align-center">
                 <h1 class="title">
-                    <a href="/r/{{ $channel->name }}" target="_blank">
+                    <a href="/c/{{ $channel->name }}" target="_blank">
                         #{{ $channel->name }}
                     </a>
                 </h1>

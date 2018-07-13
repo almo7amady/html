@@ -129,12 +129,12 @@ const routes = [
     },
 
     {
-        path: '/r/:name/mod/reports',
-        redirect: '/r/:name/mod/reports/submissions'
+        path: '/c/:name/mod/reports',
+        redirect: '/c/:name/mod/reports/submissions'
     },
-    { path: '/r/:name/mod', redirect: '/r/:name/mod/reports/submissions' },
+    { path: '/c/:name/mod', redirect: '/c/:name/mod/reports/submissions' },
     {
-        path: '/r/:name',
+        path: '/c/:name',
         component: Channel,
         children: [
             {
@@ -208,7 +208,7 @@ const routes = [
         meta: { title: 'Not Found' }
     },
     {
-        path: '/r/:name/:slug',
+        path: '/c/:name/:slug',
         component: SubmissionPage,
         name: 'submission-page'
     },

@@ -76,7 +76,7 @@
 								             class="item">Privacy policy</router-link>
 							</li>
 							<li>
-								<a href="https://www.caseroot.com/r/Community"
+								<a href="https://www.caseroot.com/c/Community"
 								   class="item"
 								   target="_blank">Community</a>
 							</li>
@@ -157,7 +157,7 @@
 			    v-else>
 				<li v-for="channel in sortedSubscribeds"
 				    :key="channel.id">
-					<router-link :to="'/r/' + channel.name"
+					<router-link :to="'/c/' + channel.name"
 					             active-class="active">
 						<img class="square"
 						     :src="channel.avatar"

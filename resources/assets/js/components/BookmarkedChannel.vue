@@ -2,7 +2,7 @@
     <transition name="el-fade-in-linear">
         <div class="bookmarked-item user-select" v-show="visible">
             <div class="avatar">
-                <router-link :to="'/r/' + list.name">
+                <router-link :to="'/c/' + list.name">
                     <img :src="list.avatar" :alt="list.name">
                 </router-link>
             </div>
@@ -10,7 +10,7 @@
             <div class="flex1">
                 <div class="flex-space">
                     <h2>
-                        <router-link :to="'/r/' + list.name">
+                        <router-link :to="'/c/' + list.name">
                             #{{ list.name }}
                         </router-link>
 

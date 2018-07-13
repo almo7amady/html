@@ -140,7 +140,7 @@ export default {
                     Store.page.channel.temp = response.data.data;
 
                     this.$router.push(
-                        '/r/' + response.data.data.name + '/mod/settings?created=1'
+                        '/c/' + response.data.data.name + '/mod/settings?created=1'
                     );
 
                     this.loading = false;

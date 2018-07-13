@@ -8,7 +8,7 @@
 					<div class="channel-header-left">
 						<!-- avatar -->
 						<div class="profile-avatar">
-							<router-link :to="'/r/' + Store.page.channel.temp.name">
+							<router-link :to="'/c/' + Store.page.channel.temp.name">
 								<img v-bind:src="Store.page.channel.temp.avatar"
 								     v-bind:alt="Store.page.channel.temp.name" />
 							</router-link>
@@ -44,19 +44,19 @@
 		<nav class="nav has-shadow user-select">
 			<div class="container">
 				<div class="nav-left">
-					<router-link :to="{ path: '/r/' + $route.params.name }"
+					<router-link :to="{ path: '/c/' + $route.params.name }"
 					             class="nav-item is-tab"
 					             :class="{ 'is-active': sort == 'hot' }">
 						Hot
 					</router-link>
 
-					<router-link :to="{ path: '/r/' + $route.params.name + '?sort=new' }"
+					<router-link :to="{ path: '/c/' + $route.params.name + '?sort=new' }"
 					             class="nav-item is-tab"
 					             :class="{ 'is-active': sort == 'new' }">
 						New
 					</router-link>
 
-					<router-link :to="{ path: '/r/' + $route.params.name + '?sort=rising'  }"
+					<router-link :to="{ path: '/c/' + $route.params.name + '?sort=rising'  }"
 					             class="nav-item is-tab"
 					             :class="{ 'is-active': sort == 'rising' }">
 						Rising
@@ -116,7 +116,7 @@
 
 					<el-button round
 					           type="success"
-					           @click="$router.push('/r/' + $route.params.name + '/mod')"
+					           @click="$router.push('/c/' + $route.params.name + '/mod')"
 					           v-if="isModerator"
 					           size="mini">
 						Moderation
@@ -124,7 +124,7 @@
 
 					<el-button round
 					           type="warning"
-					           @click="$router.push('/r/' + $route.params.name + '/mod')"
+					           @click="$router.push('/c/' + $route.params.name + '/mod')"
 					           v-if="!isModerator && isVotenAdministrator"
 					           size="mini">
 						Moderation

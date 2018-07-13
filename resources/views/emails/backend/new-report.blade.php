@@ -1,5 +1,5 @@
 @component('mail::message')
-# New {{ $type }} reported at [#{{ $channel->name }}]({{ config('app.url') }}/r/{{ $channel->name }})
+# New {{ $type }} reported at [#{{ $channel->name }}]({{ config('app.url') }}/c/{{ $channel->name }})
 
 We just had a new reprot!!! OMG, please, hurry. We need you!
 
