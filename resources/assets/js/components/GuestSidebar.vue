@@ -127,7 +127,7 @@
 			</li>
 			<li>
 				<a href="https://www.facebook.com/caseroot"
-				   target="_blank">Facebook Page</a>
+				   target="_blank">Facebook page</a>
 			</li>
 		</ul>
 	</div>

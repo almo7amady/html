@@ -201,9 +201,9 @@ export default {
                     if (response.status === 201) {
                         this.$message({
                             type: 'success',
-                            message: `#${
+                            message: `CaseRoot - ${
                                 Store.page.channel.temp.name
-                            } is now blocked for you. You won't see Cases from #${
+                            } is now blocked for you. You won't see Cases from CaseRoot - ${
                                 Store.page.channel.temp.name
                             } in your feed. `
                         });
@@ -211,7 +211,7 @@ export default {
                         // unblocked
                         this.$message({
                             type: 'success',
-                            message: `#${Store.page.channel.temp.name} is no longer blocked.`
+                            message: `CaseRoot - ${Store.page.channel.temp.name} is no longer blocked.`
                         });
                     }
                 })

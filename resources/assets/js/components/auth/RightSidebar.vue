@@ -13,7 +13,7 @@
 					     :alt="auth.username"
 					     class="avatar">
 
-					<strong class="break-words">{{ '@' + auth.username }}</strong>
+					<strong class="break-words">{{ auth.username }}</strong>
 				</span>
 
 				<i :class="showMenu ? 'el-icon-close' : 'el-icon-arrow-down'"></i>
@@ -87,7 +87,7 @@
 							<li>
 								<a href="https://www.facebook.com/caseroot"
 								   class="item"
-								   target="_blank">Facebook Page</a>
+								   target="_blank">Facebook page</a>
 							</li>
 						</div>
 					</el-collapse-transition>
@@ -163,7 +163,7 @@
 						     :src="channel.avatar"
 						     :alt="channel.name"
 						     v-if="showChannelAvatars">
-						<span v-else>#</span>
+						<span v-else>CaseRoot - </span>
 						<span class="v-channels-text">{{ channel.name }}</span>
 					</router-link>
 				</li>

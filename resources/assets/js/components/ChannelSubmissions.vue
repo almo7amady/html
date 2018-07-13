@@ -72,7 +72,7 @@ export default {
             Store.page.channel.getChannel(to.params.name, false)
         ]).then((values) => {
             Store.page.channel.setChannel(values[1]);
-            this.setPageTitle('#' + to.params.name);
+            this.setPageTitle('CaseRoot - ' + to.params.name);
             this.$Progress.finish();
             next();
         });
@@ -80,7 +80,7 @@ export default {
 
     created() {
         this.$eventHub.$on('refresh-channel-submissions', this.refresh);
-        this.setPageTitle('#' + this.$route.params.name);
+        this.setPageTitle('CaseRoot - ' + this.$route.params.name);
     },
 
     computed: {
