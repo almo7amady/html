@@ -85,8 +85,8 @@
 				          :key="e"></el-alert>
 			</el-form-item>
 
-			<el-form-item label="(optional) Email Address:">
-				<el-input placeholder="(optional) Email address..."
+			<el-form-item label="Email Address:">
+				<el-input placeholder="Your Email address..."
 				          name="email"
 				          v-model="registerForm.email"
 				          size="medium"
