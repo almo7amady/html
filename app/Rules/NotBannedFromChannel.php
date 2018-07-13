@@ -29,6 +29,6 @@ class NotBannedFromChannel implements Rule
      */
     public function message()
     {
-        return 'You have been banned from submitting to this channel.';
+        return 'You have been banned from submitting to this Root.';
     }
 }

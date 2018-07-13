@@ -44,11 +44,11 @@
 					<hr>
 
 					<li>
-						<router-link :to="{name: 'discover-channels'}"
+						<router-link :to="{name: 'discover-roots'}"
 						             class="item">Discover Roots</router-link>
 					</li>
 					<li class="item"
-					    @click="Store.modals.newChannel.show = true">Initiate a new Root</li>
+					    @click="Store.modals.newRoot.show = true">Initiate a new Root</li>
 					<li class="item"
 					    @click="Store.modals.keyboardShortcutsGuide.show = true">Keyboard shortcuts</li>
 					<li>
@@ -304,7 +304,7 @@ export default {
         },
 
         pushToDiscoverChannels() {
-            this.$router.push({ name: 'discover-channels' });
+            this.$router.push({ name: 'discover-roots' });
         },
 
         lessChannels() {

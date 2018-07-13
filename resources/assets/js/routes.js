@@ -198,7 +198,7 @@ const routes = [
     {
         path: '/discover-roots',
         component: FindChannels,
-        name: 'discover-channels',
+        name: 'discover-roots',
         meta: { title: 'Discover Channels' }
     },
     {

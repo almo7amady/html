@@ -9,9 +9,9 @@ export default {
         show: false,
         hash: 'notifications'
     },
-    newChannel: {
+    newRoot: {
         show: false,
-        hash: 'newChannel'
+        hash: 'newRoot'
     },
     feedback: {
         show: false,

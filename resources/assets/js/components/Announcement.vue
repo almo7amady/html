@@ -39,7 +39,7 @@ export default {
 
     computed: {
         show() {
-            return this.$route.name !== 'discover-channels';
+            return this.$route.name !== 'discover-roots';
         }
     },
 

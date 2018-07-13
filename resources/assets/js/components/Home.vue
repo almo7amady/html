@@ -1,5 +1,26 @@
 <template>
+
+    
+    
+    
     <div class="home-wrapper" id="home">
+        <div class="echo-info-box">
+            <div class="info">
+                Roots are common subjects, groups or specialties that accept many discussions to dive in
+            </div>
+            <router-link :to="{name: 'discover-roots'}"
+                class="item">Discover Roots
+            </router-link>
+        </div>
+
+        <div class="echo-info-box">
+            <div class="info">
+            Cases are feeds for Roots discriping user's input for Root subject                
+            </div>
+
+        </div>
+        
+        
         <nav class="nav has-shadow user-select" :class="{'shade-item relative': showTour && activeTour.id === 'feed'}">
             <tour v-if="showTour && activeTour.id == 'feed'" :position="{ top: '7em', left: '39%' }"></tour>
 
@@ -38,7 +59,7 @@
                     </el-tooltip>
 
                     <el-button round type="primary" size="mini" @click="submit" v-if="isLoggedIn">
-                        Submit
+                        Create New Case
                     </el-button>
                 </div>
             </div>
@@ -199,3 +220,32 @@ export default {
     }
 };
 </script>
+
+
+<style lang="scss">
+.echo-info-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+
+    .echo-info-box {
+        width: 200px;
+        height: 5em;
+        background: #4e4e84;
+        color: #fff;
+        border-radius: 4px;
+        text-align: center;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 2em;
+        padding: 1em;
+        flex-direction: column;
+
+        .info {
+            font-size: 15px;
+            opacity: 0.9;
+        }
+    }
+}
+</style>

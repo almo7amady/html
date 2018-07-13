@@ -3,6 +3,7 @@
 namespace App\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
+use App\Traits\EchoServer;
 
 class EchoServerResource extends JsonResource
 {
