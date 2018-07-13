@@ -15,7 +15,7 @@
 					     height="30"
 					     class="circle margin-right-half">
 
-					<router-link :to="'/c/' + scope.row.name">{{ str_limit(scope.row.name, 15) }}</router-link>
+					<router-link :to="'/r/' + scope.row.name">{{ str_limit(scope.row.name, 15) }}</router-link>
 				</template>
 			</el-table-column>
 

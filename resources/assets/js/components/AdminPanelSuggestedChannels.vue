@@ -61,7 +61,7 @@
                 <tbody>
                 <tr v-for="item in list" :key="item.id">
                     <td>
-                        <router-link :to="'/c/' + item.channel.name">
+                        <router-link :to="'/r/' + item.channel.name">
                             <b>#{{ item.channel.name }}</b>
                         </router-link>
                     </td>

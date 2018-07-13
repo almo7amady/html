@@ -26,11 +26,11 @@ export default {
                 )
                 .replace(
                     /(?:^| )#([A-Za-z0-9_]+)/gm,
-                    ' [#$1](https://www.caseroot.com/c/$1)'
+                    ' [#$1](https://www.caseroot.com/r/$1)'
                 )
                 .replace(
                     /(?:^| )\/c\/([A-Za-z0-9_]+)/gm,
-                    ' [#$1](https://www.caseroot.com/c/$1)'
+                    ' [#$1](https://www.caseroot.com/r/$1)'
                 );
 
             text = emojione.shortnameToImage(text);

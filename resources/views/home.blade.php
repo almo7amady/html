@@ -77,26 +77,14 @@
 		{
 		  "@type":"SiteNavigationElement",
 		  "position":4,
-		  "name": "#technology",
-		  "url":"https://www.caseroot.com/c/technology"
+		  "name": "#Community",
+		  "url":"https://www.caseroot.com/r/Community"
 		},
 		{
 		  "@type":"SiteNavigationElement",
 		  "position":5,
-		  "name": "#news",
-		  "url":"https://www.caseroot.com/c/news"
-		},
-		{
-		  "@type":"SiteNavigationElement",
-		  "position":6,
-		  "name": "#funny",
-		  "url":"https://www.caseroot.com/c/funny"
-		},
-		{
-		  "@type":"SiteNavigationElement",
-		  "position":7,
-		  "name": "#politics",
-		  "url":"https://www.caseroot.com/c/politics"
+		  "name": "#Social",
+		  "url":"https://www.caseroot.com/r/Social"
 		}
 	  ]
 	}

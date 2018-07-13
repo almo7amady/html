@@ -64,10 +64,10 @@ class CommentReported extends Notification implements ShouldBroadcast
     public function toArray($notifiable)
     {
         return [
-            'url'    => '/c/'.$this->channel->name.'/mod/reports/comments/',
+            'url'    => '/r/'.$this->channel->name.'/mod/reports/comments/',
             'name'   => $this->channel->name,
             'avatar' => $this->channel->avatar,
-            'body'   => 'Comment reported at #'.$this->channel->name,
+            'body'   => 'Comment reported at CaseRoot - '.$this->channel->name,
         ];
     }
 

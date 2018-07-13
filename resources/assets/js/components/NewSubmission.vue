@@ -311,7 +311,7 @@ export default {
                 this.submitApi();
                 window.location.hash = 'newSubmission';
             } else {
-                if (window.location.hash == '#newSubmission') {
+                if (window.location.hash == '#newCase') {
                     history.go(-1);
                 }
             }
@@ -371,7 +371,7 @@ export default {
                     this.loading = false;
 
                     Store.state.submissions.likes.push(response.data.data.id);
-                    this.$router.push('/c/' + this.selectedCat + '/' + response.data.data.slug);
+                    this.$router.push('/r/' + this.selectedCat + '/' + response.data.data.slug);
 
                     this.close();
                     this.reset();

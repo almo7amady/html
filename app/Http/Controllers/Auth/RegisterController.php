@@ -131,7 +131,7 @@ class RegisterController extends Controller
         $this->guard()->login($user);
 
         return $this->registered($request, $user)
-            ?: redirect('/discover-channels?newbie=1&sidebar=0');
+            ?: redirect('/discover-roots?newbie=1&sidebar=0');
     }
 
     /**

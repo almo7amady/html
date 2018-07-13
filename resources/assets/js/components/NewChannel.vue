@@ -101,7 +101,7 @@ export default {
             if (this.visible) {
                 window.location.hash = 'newChannel';
             } else {
-                if (window.location.hash == '#newChannel') {
+                if (window.location.hash == '#newRoot') {
                     history.go(-1);
                 }
             }
@@ -140,7 +140,7 @@ export default {
                     Store.page.channel.temp = response.data.data;
 
                     this.$router.push(
-                        '/c/' + response.data.data.name + '/mod/settings?created=1'
+                        '/r/' + response.data.data.name + '/mod/settings?created=1'
                     );
 
                     this.loading = false;

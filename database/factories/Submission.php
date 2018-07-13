@@ -10,7 +10,7 @@ $factory->define(\App\Submission::class, function (Faker $faker) {
     return [
         'title' => $title,
         'slug' => $slug,
-        'url' => config('app.url') . '/c/' . $channel->name . '/' . $slug,
+        'url' => config('app.url') . '/r/' . $channel->name . '/' . $slug,
         'domain' => null, 
         'type' => 'text',
         'data' => ['text' => $faker->paragraph()],

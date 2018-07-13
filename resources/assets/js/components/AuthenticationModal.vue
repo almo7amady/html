@@ -299,7 +299,7 @@ export default {
                 .then((response) => {
                     this.loading = false;
                     this.registerForm.errors = [];
-                    window.location = '/discover-channels?newbie=1&sidebar=0';
+                    window.location = '/discover-roots?newbie=1&sidebar=0';
                 })
                 .catch((error) => {
                     this.loading = false;

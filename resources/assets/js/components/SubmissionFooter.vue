@@ -7,7 +7,7 @@
 				{{ '@' + submission.author.username }}
 			</router-link>
 			to
-			<router-link :to="'/c/' + submission.channel_name"
+			<router-link :to="'/r/' + submission.channel_name"
 			             class="channel-label h-underline">#{{ submission.channel_name }}</router-link>
 		</span> 
 

@@ -328,7 +328,7 @@ export default {
          * @param {string} name
          */
         channelUrl(name) {
-            return `/c/${name}`;
+            return `/r/${name}`;
         },
 
         /**
@@ -346,7 +346,7 @@ export default {
          * @param {SubmissionResource} submission
          */
         submissionUrl(submission) {
-            return `/c/${submission.channel_name}/${submission.slug}`;
+            return `/r/${submission.channel_name}/${submission.slug}`;
         }
     }
 };

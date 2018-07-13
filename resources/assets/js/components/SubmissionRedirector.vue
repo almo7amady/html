@@ -36,7 +36,7 @@ export default {
                     this.loading = false;
 
                     this.$router.push(
-                        '/c/' +
+                        '/r/' +
                             response.data.data.channel_name +
                             '/' +
                             response.data.data.slug

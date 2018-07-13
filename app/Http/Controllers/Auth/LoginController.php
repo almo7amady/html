@@ -131,7 +131,7 @@ class LoginController extends Controller
             'user_id'              => $user->id,
         ]);
 
-        $this->redirectTo = '/discover-channels?newbie=1&sidebar=0';
+        $this->redirectTo = '/discover-roots?newbie=1&sidebar=0';
 
         return $user;
     }

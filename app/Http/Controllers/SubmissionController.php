@@ -102,7 +102,7 @@ class SubmissionController extends Controller
             $submission = Submission::create([
                 'title'        => $request->title,
                 'slug'         => $slug = $this->slug($request->title),
-                'url'          => $request->type === 'link' ? $request->url : config('app.url').'/c/'.$channel->name.'/'.$slug,
+                'url'          => $request->type === 'link' ? $request->url : config('app.url').'/r/'.$channel->name.'/'.$slug,
                 'domain'       => $request->type === 'link' ? domain($request->url) : null,
                 'type'         => $request->type,
                 'channel_name' => $request->channel_name,

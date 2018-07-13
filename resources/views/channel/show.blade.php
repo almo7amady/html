@@ -5,7 +5,7 @@
 	<title>#{{ $channel->name }} - Case Root</title>
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="#{{ $channel->name }} - Case Root" />
-	<meta property="og:url" content="{{ config('app.url') }}/c/{{ $channel->name }}" />
+	<meta property="og:url" content="{{ config('app.url') }}/r/{{ $channel->name }}" />
 	<meta property="og:site_name" content="Case Root" />
 
 	<meta name="twitter:card" content="summary" />

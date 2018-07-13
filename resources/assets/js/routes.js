@@ -129,12 +129,12 @@ const routes = [
     },
 
     {
-        path: '/c/:name/mod/reports',
-        redirect: '/c/:name/mod/reports/submissions'
+        path: '/r/:name/mod/reports',
+        redirect: '/r/:name/mod/reports/submissions'
     },
-    { path: '/c/:name/mod', redirect: '/c/:name/mod/reports/submissions' },
+    { path: '/r/:name/mod', redirect: '/r/:name/mod/reports/submissions' },
     {
-        path: '/c/:name',
+        path: '/r/:name',
         component: Channel,
         children: [
             {
@@ -196,7 +196,7 @@ const routes = [
     { path: '/deleted-submission', component: DeletedSubmissionPage },
     { path: '/submission/:id', component: SubmissionRedirector },
     {
-        path: '/discover-channels',
+        path: '/discover-roots',
         component: FindChannels,
         name: 'discover-channels',
         meta: { title: 'Discover Channels' }
@@ -208,7 +208,7 @@ const routes = [
         meta: { title: 'Not Found' }
     },
     {
-        path: '/c/:name/:slug',
+        path: '/r/:name/:slug',
         component: SubmissionPage,
         name: 'submission-page'
     },

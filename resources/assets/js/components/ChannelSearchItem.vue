@@ -1,6 +1,6 @@
 <template>
 	<li class="go-black">
-	    <router-link :to="'/c/' + list.name">
+	    <router-link :to="'/r/' + list.name">
 	    	<div class="channel-search-item-avatar">
 		        <img v-bind:src="list.avatar" v-bind:alt="list.name" />
 		    </div>

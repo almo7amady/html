@@ -9,7 +9,7 @@ Verify Email
 @endcomponent
 
 @component('mail::panel')
-    ask [community](https://www.caseroot.com/c/Community), or hit us up on Twitter [@case_root](https://twitter.com/elmo7amady).
+    ask [community](https://www.caseroot.com/r/Community), or hit us up on Twitter [@case_root](https://twitter.com/elmo7amady).
     Want to give us feedback? Let us know what you think on our [feedback page](https://www.caseroot.com?feedback=1).
 @endcomponent
 
