@@ -57,6 +57,18 @@
                 <submission :list="value"></submission>
             </div>
 
+            <section class="home-submissions" v-infinite-scroll="loadMore" infinite-scroll-disabled="cantLoadMore">
+                <div class="index-channels">
+                    <bookmarked-channel v-for="item in items" :key="item.id" :list="item"></bookmarked-channel>				
+                </div>
+
+                <loading v-show="loading"></loading>		
+                <no-content v-if="noContent" :text="'No results were found with current filters.'"></no-content>
+                <no-more-items :text="'No more items to load'" v-if="NoMoreItems && !noContent"></no-more-items>
+            </section>
+
+
+
             <no-content v-if="Store.page.home.nothingFound"
                         :text="'No Subscribtions at this time. Try subscribing to more Roots or adjusting your feed filters.'">
             </no-content>
