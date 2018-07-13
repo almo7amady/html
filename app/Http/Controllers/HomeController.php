@@ -26,7 +26,7 @@ class HomeController extends Controller
     {
         $submissions = $this->guestFeed(request());
 
-        return view('home', compact('submissions'));
+        return view('welcome', compact('submissions'));
     }
 
     /**
