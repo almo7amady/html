@@ -56,7 +56,7 @@
 
             <no-content v-if="Store.page.home.nothingFound"
                         :text="
-                        '------------------- Sign up Now ,Search For Root Speciality, Participate With Your Wonderful Cases and Have Fun With Other Cases ------------------- No Subscribtions at this time. Try subscribing to more Roots or adjusting your feed filters.'">
+                        '-------------------------- Sign up Now ,Search For Root Speciality, Participate With Your Wonderful Cases and Have Fun With Other Cases ----------------------- No Subscribtions at this time. Try subscribing to more Roots or adjusting your feed filters.'">
             </no-content>
 
             <loading v-if="loading && page > 1"></loading>
