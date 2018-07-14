@@ -52,9 +52,9 @@ class GifController extends Controller
                     '-preset', 'veryslow',
                     '-b:v', '500k',
                 ]))
-                ->save('submissions/gif/'.$filename.'.mp4')
+                ->save('submissions/gif/'.$filename.'.mp4');
                 // thumbnail
-                -//>getFrameFromSeconds(1)
+                //->getFrameFromSeconds(1)
                // ->export()
                // ->toDisk('local')
                // ->save('submissions/gif/'.$filename.'.jpg');
