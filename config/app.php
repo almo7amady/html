@@ -172,6 +172,8 @@ return [
         Sentry\SentryLaravel\SentryLaravelServiceProvider::class,
         Laravel\Scout\ScoutServiceProvider::class,
         Barryvdh\Cors\ServiceProvider::class,
+        Pbmedia\LaravelFFMpeg\FFMpegServiceProvider::class,
+
 
         // dev only
         VueGenerators\ServiceProvider::class,
