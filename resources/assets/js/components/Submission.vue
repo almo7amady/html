@@ -265,8 +265,8 @@
 
 								<el-dropdown-item @click.native="markAsSFW"
 								                  v-if="showSFW">
-									Family Safe
-								</el-dropdown-item>
+                                           Safe For Work			
+                            	</el-dropdown-item>
 
 								<el-dropdown-item class="go-red"
 								                  @click.native="destroy"

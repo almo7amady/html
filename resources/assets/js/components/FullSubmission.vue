@@ -128,7 +128,7 @@
 
 										<el-dropdown-item @click.native="markAsSFW"
 										                  v-if="showSFW">
-											Family Safe
+											    Safe For Work
 										</el-dropdown-item>
 
 										<el-dropdown-item class="go-red"
