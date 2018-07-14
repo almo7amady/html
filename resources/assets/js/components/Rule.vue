@@ -6,11 +6,11 @@
             </div>
 
             <div class="actions">
-                <el-tooltip content="Edit" placement="top" transition="false" :open-delay="100">
+                <el-tooltip content="Edit" placement="top" transition="false" :open-delay="500">
                     <i class="pointer v-icon go-gray v-edit h-primary" @click="$emit('edit-rule', list)"></i>
                 </el-tooltip>
 
-                <el-tooltip content="Delete" placement="top" transition="false" :open-delay="100">
+                <el-tooltip content="Delete" placement="top" transition="false" :open-delay="500">
                     <i class="pointer v-icon go-gray v-delete h-red"
                        @click="$emit('delete-rule', list.id, list.channel_id)"></i>
                 </el-tooltip>

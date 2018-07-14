@@ -66,7 +66,7 @@
 				<el-tooltip content="Scroll to top"
 				            placement="bottom"
 				            transition="false"
-				            :open-delay="100">
+				            :open-delay="500">
 					<h1 class="title pointer"
 					    @click="scrollToTop('submissions')">
 						<i class="v-icon v-channel"
@@ -100,7 +100,7 @@
 					<el-tooltip :content="bookmarked ? 'Unbookmark this channel' : 'Bookmark this channel'"
 					            placement="bottom"
 					            transition="false"
-					            :open-delay="100">
+					            :open-delay="500">
 						<i class="v-icon h-yellow pointer"
 						   :class="bookmarked ? 'go-yellow v-unbookmark' : 'v-bookmark go-gray'"
 						   @click="bookmark"></i>

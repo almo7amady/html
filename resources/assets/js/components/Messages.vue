@@ -36,7 +36,7 @@
 						<el-tooltip content="Blocked"
 						            placement="bottom"
 						            transition="false"
-						            :open-delay="100">
+						            :open-delay="500">
 							<i class="v-icon v-block go-gray"
 							   aria-hidden="true"></i>
 						</el-tooltip>
@@ -50,7 +50,7 @@
 					<el-tooltip content="Close (esc)"
 					            placement="bottom"
 					            transition="false"
-					            :open-delay="100">
+					            :open-delay="500">
 						<div class="v-close"
 						     @click="close">
 							<i class="el-icon-close"
@@ -83,7 +83,7 @@
 					<el-tooltip content="Back to contacts"
 					            placement="bottom"
 					            transition="false"
-					            :open-delay="100">
+					            :open-delay="500">
 						<div class="v-back"
 						     @click="backToContacts">
 							<i class="el-icon-back"
@@ -95,7 +95,7 @@
 					<el-tooltip :content="'Delete ' + selectedMessages.length + ' selected messages'"
 					            placement="bottom"
 					            transition="false"
-					            :open-delay="100">
+					            :open-delay="500">
 						<div class="v-delete-button"
 						     v-show="selectedMessages.length"
 						     @click="deleteMessages">

@@ -13,14 +13,14 @@
         </div>
 
         <div class="m-actions user-select pointer" @click="$emit('select-message', list.id)">
-            <el-tooltip :content="'Sent on: ' + longDate" placement="top-end" transition="false" :open-delay="100"
+            <el-tooltip :content="'Sent on: ' + longDate" placement="top-end" transition="false" :open-delay="500"
                         v-if="!selected">
                 <time class="go-gray">
                     {{ date }}
                 </time>
             </el-tooltip>
 
-            <el-tooltip :content="'Seen on: ' + seenDate" placement="top-end" transition="false" :open-delay="100"
+            <el-tooltip :content="'Seen on: ' + seenDate" placement="top-end" transition="false" :open-delay="500"
                         v-if="displaySeen">
                 <i class="v-icon v-seen go-gray" aria-hidden="true"></i>
             </el-tooltip>

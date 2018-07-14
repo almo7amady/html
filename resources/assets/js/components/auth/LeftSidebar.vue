@@ -8,7 +8,7 @@
 			<el-tooltip content="Home Feed (H)"
 						placement="right"
 						transition="false"
-						:open-delay="100">
+						:open-delay="500">
 				<a @click.prevent="goHome"
 				href="/"
 				:class="{ 'active': activeRoute === 'home' }"
@@ -23,7 +23,7 @@
 						placement="right"
 						transition="false"
 						v-if="isLoggedIn"
-						:open-delay="100">
+						:open-delay="500">
 				<a @click.prevent="pushRouter('/@' + auth.username)"
 				:href="'/@' + auth.username"
 				:class="{ 'active': activeRoute === 'profile' }"
@@ -37,7 +37,7 @@
 			<el-tooltip content="Notifications (N)"
 						placement="right"
 						transition="false"
-						:open-delay="100"
+						:open-delay="500"
 						v-if="isLoggedIn">
 				<a class="item"
 				:class="{'active' : activeRoute === 'notifications'}"
@@ -54,7 +54,7 @@
 			<el-tooltip content="Messages (M)"
 						placement="right"
 						transition="false"
-						:open-delay="100"
+						:open-delay="500"
 						v-if="isLoggedIn">
 				<a class="item"
 					id="messages-btn"
@@ -73,7 +73,7 @@
 			<el-tooltip content="Bookmarks (B)"
 						placement="right"
 						transition="false"
-						:open-delay="100"
+						:open-delay="500"
 						v-if="isLoggedIn">
 				<a @click.prevent="pushRouter('/bookmarks')"
 				href="/bookmarks"
@@ -88,7 +88,7 @@
 			<el-tooltip content="Search (/)"
 						placement="right"
 						transition="false"
-						:open-delay="100">
+						:open-delay="500">
 				<a class="item"
 				@click="Store.modals.search.show = true"
 				:class="{'active' : activeRoute === 'search'}">
@@ -101,7 +101,7 @@
 			<el-tooltip content="Preferences"
 						placement="right"
 						transition="false"
-						:open-delay="100"
+						:open-delay="500"
 						v-if="isLoggedIn">
 				<a class="item"
 				@click.prevent="Store.modals.preferences.show = true"
@@ -115,7 +115,7 @@
 			<el-tooltip content="Add Content"
 						placement="right"
 						transition="false"
-						:open-delay="100"
+						:open-delay="500"
 						v-if="isLoggedIn">
 				<a class="item"
 				@click="$eventHub.$emit('submit')"
@@ -129,7 +129,7 @@
 			<el-tooltip content="Help Center"
 						placement="right"
 						transition="false"
-						:open-delay="100"
+						:open-delay="500"
 						v-if="isGuest">
 				<a class="item"
 				href="https://www.caseroot.com/about#feedback"
@@ -147,7 +147,7 @@
 			<el-tooltip content="Backend Dashboard"
 			            placement="right"
 			            transition="false"
-			            :open-delay="100"
+			            :open-delay="500"
 			            v-if="meta.isVotenAdministrator">
 				<a class="item"
 				   href="/backend"
@@ -160,7 +160,7 @@
 			<el-tooltip content="Big-daddy Dashboard"
 			            placement="right"
 			            transition="false"
-			            :open-delay="100"
+			            :open-delay="500"
 			            v-if="meta.isVotenAdministrator">
 				<a class="item"
 				   @click.prevent="pushRouter('/big-daddy')"
@@ -174,7 +174,7 @@
 			<el-tooltip content="Help Center"
 			            placement="right"
 			            transition="false"
-			            :open-delay="100">
+			            :open-delay="500">
 				<a class="item"
 				   href="https://www.caseroot.com?feedback=1/"
 				   target="_blank">

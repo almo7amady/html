@@ -9,16 +9,16 @@
             </div>
 
             <div class="actions">
-                <el-tooltip content="Reason" placement="top" transition="false" :open-delay="100">
+                <el-tooltip content="Reason" placement="top" transition="false" :open-delay="500">
                     <i class="pointer v-icon go-gray v-attention-alt h-yellow" :class="list.description ? '' : 'display-hidden'"
                        @click="showDescription = !showDescription"></i>
                 </el-tooltip>
 
-                <el-tooltip content="Unban" placement="top" transition="false" :open-delay="100">
+                <el-tooltip content="Unban" placement="top" transition="false" :open-delay="500">
                     <i class="pointer v-icon go-gray v-delete h-red" @click="$emit('unban', list.user_id)"></i>
                 </el-tooltip>
 
-                <el-tooltip :content="'Unban ' + date" placement="top" transition="false" :open-delay="100">
+                <el-tooltip :content="'Unban ' + date" placement="top" transition="false" :open-delay="500">
                     <i class="pointer v-icon go-gray v-calendar-1 h-green"></i>
                 </el-tooltip>
             </div>

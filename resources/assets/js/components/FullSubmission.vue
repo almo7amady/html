@@ -49,7 +49,7 @@
 								<el-tooltip :content="'Created: ' + longDate"
 								            placement="bottom-start"
 								            transition="false"
-								            :open-delay="100">
+								            :open-delay="500">
 									<span class="date">
 										{{ date }}
 									</span>
@@ -65,7 +65,7 @@
 									<el-tooltip content="Edit"
 									            placement="bottom"
 									            transition="false"
-									            :open-delay="100">
+									            :open-delay="500">
 										<i class="v-icon v-edit go-gray h-purple pointer"></i>
 									</el-tooltip>
 								</a> -->
@@ -82,7 +82,7 @@
 								<el-tooltip content="Like"
 								            placement="bottom"
 								            transition="false"
-								            :open-delay="100">
+								            :open-delay="500">
 									<i class="v-icon like-icon"
 									   :class="liked ? 'v-heart-filled go-red animated bounceIn' : 'v-heart go-gray h-red'"></i>
 								</el-tooltip>
@@ -96,7 +96,7 @@
 								<el-tooltip :content="bookmarked ? 'Unbookmark' : 'Bookmark'"
 								            placement="bottom-end"
 								            transition="false"
-								            :open-delay="100">
+								            :open-delay="500">
 									<i class="v-icon h-yellow"
 									   :class="bookmarked ? 'go-yellow v-unbookmark' : 'v-bookmark'"></i>
 								</el-tooltip>

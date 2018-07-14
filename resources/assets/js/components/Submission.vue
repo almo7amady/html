@@ -218,7 +218,7 @@
 							            content="Comments"
 							            placement="top"
 							            transition="false"
-							            :open-delay="100">
+							            :open-delay="500">
 								<i class="v-icon v-comment margin-left-0"></i>
 							</el-tooltip>
 							<span v-if="list.comments_count"
@@ -233,7 +233,7 @@
 							            :content="bookmarked ? 'Unbookmark' : 'Bookmark'"
 							            placement="top"
 							            transition="false"
-							            :open-delay="100">
+							            :open-delay="500">
 								<i class="v-icon pointer"
 								   :class="bookmarked ? 'go-yellow v-unbookmark' : 'v-bookmark'"></i>
 							</el-tooltip>

@@ -8,13 +8,13 @@
             </div>
 
             <div class="actions">
-                <el-tooltip content="Reason for being blocked" placement="top" transition="false" :open-delay="100">
+                <el-tooltip content="Reason for being blocked" placement="top" transition="false" :open-delay="500">
                     <i class="pointer v-icon go-gray v-attention-alt h-yellow"
                        :class="list.description ? '' : 'display-hidden'"
                        @click="showDescription = !showDescription"></i>
                 </el-tooltip>
 
-                <el-tooltip content="Unblock" placement="top" transition="false" :open-delay="100">
+                <el-tooltip content="Unblock" placement="top" transition="false" :open-delay="500">
                     <i class="pointer v-icon go-gray v-delete h-red" @click="$emit('unblock', list.domain)"></i>
                 </el-tooltip>
             </div>

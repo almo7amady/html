@@ -10,7 +10,7 @@
              <el-tooltip content="Cancel (esc)"
              placement="right"
              transition="false"
-             :open-delay="100"
+             :open-delay="500"
              >
                 <div class="close"
                     @click="clear">

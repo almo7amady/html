@@ -20,7 +20,7 @@
                     <div class="flex-align-center">
                         <el-tooltip :content="bookmarked ? 'Unbookmark' : 'Bookmark'" placement="top" 
                             transition="false"
-                            :open-delay="100"
+                            :open-delay="500"
                         >
                             <i class="v-icon h-yellow pointer" v-if="!isNewbie"
                                :class="bookmarked ? 'v-unbookmark go-yellow' : 'v-bookmark go-gray'" @click="bookmark"></i>
@@ -28,7 +28,7 @@
 
                         <el-tooltip :content="subscribed ? 'Unsubscribe' : 'Subscribe'" placement="top" 
                             transition="false"
-                            :open-delay="100"
+                            :open-delay="500"
                         >
                             <i 
                                 class="subscribe-icon"
