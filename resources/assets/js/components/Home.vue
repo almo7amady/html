@@ -52,7 +52,7 @@
             v-infinite-scroll="loadMore" infinite-scroll-disabled="cantLoadMore" @scroll.passive="scrolled"
         >
             <div v-for="(value, index) in uniqueList" v-bind:key="value.id">
-                <suggested-channel v-if="isLoggedIn && index == 5"></suggested-channel>
+                <suggested-channel v-if="isGuest && index == 5"></suggested-channel>
 
                 <submission :list="value"></submission>
             </div>
