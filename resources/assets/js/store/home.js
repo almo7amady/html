@@ -5,7 +5,7 @@ export default {
     submissions: [],
     loading: null,
 
-    getSubmissions(sort = 'hot') {
+    getSubmissions(sort = 'all') {
         return new Promise((resolve, reject) => {
             this.page++;
             this.loading = true;
