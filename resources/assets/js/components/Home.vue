@@ -1,8 +1,5 @@
 <template>
-
-    
-    
-    
+   
     <div class="home-wrapper" id="home">        
         <nav class="nav has-shadow user-select" :class="{'shade-item relative': showTour && activeTour.id === 'feed'}">
             <tour v-if="showTour && activeTour.id == 'feed'" :position="{ top: '7em', left: '39%' }"></tour>
@@ -24,18 +21,18 @@
                     </router-link>
                 </div>
 
-                <el-tooltip content="Scroll to top" placement="bottom" transition="false" :open-delay="500">
+                <el-tooltip content="Scroll to top" placement="bottom" transition="false" :open-delay="100">
                     <img src="/imgs/favicon.png" class="logo" alt="Case Root" @click="scrollToTop('submissions')">
                 </el-tooltip>    
 
                 <div class="flex-center">
-                    <el-tooltip content="Refresh (R)" placement="bottom" transition="false" :open-delay="500">
+                    <el-tooltip content="Refresh (R)" placement="bottom" transition="false" :open-delay="100">
                         <button class="feed-panel-button" @click="refresh">
                             <i class="el-icon-refresh" :class="{'rotate': refreshing}"></i>
                         </button>
                     </el-tooltip>
 
-                    <el-tooltip content="Customize Feed" placement="bottom" transition="false" :open-delay="500" v-if="isLoggedIn">
+                    <el-tooltip content="Customize Feed" placement="bottom" transition="false" :open-delay="100" v-if="isLoggedIn">
                         <button class="feed-panel-button margin-right-half" @click="Store.modals.feedSettings.show = true">
                             <i class="el-icon-setting"></i>
                         </button>
@@ -51,10 +48,10 @@
         <section id="submissions" class="home-submissions" :class="{'flex-center' : nothingFound}"
             v-infinite-scroll="loadMore" infinite-scroll-disabled="cantLoadMore" @scroll.passive="scrolled"
         >
-            <div v-for="(value, index) in uniqueList" v-bind:key="value.id">
-                <suggested-channel v-if="isLoggedIn && index == 5"></suggested-channel>
+            <div ><!-- v-for="(value, index) in uniqueList" v-bind:key="value.id"-->
+                <suggested-channel ></suggested-channel> <!-- v-if="isLoggedIn && index == 5"-->
 
-                <submission :list="value"></submission>
+                <submission ></submission> <!-- :list="value"-->
             </div>
 
             <no-content v-if="Store.page.home.nothingFound"

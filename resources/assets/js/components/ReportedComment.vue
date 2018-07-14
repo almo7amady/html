@@ -26,7 +26,7 @@
 			<el-tooltip :content="list.subject"
 			            placement="top"
 			            transition="false"
-			            :open-delay="500">
+			            :open-delay="100">
 				<div class="detail">
 					{{ str_limit(list.subject, 20) }}
 				</div>
@@ -42,7 +42,7 @@
 				<el-tooltip content="Description"
 				            placement="top"
 				            transition="false"
-				            :open-delay="500">
+				            :open-delay="100">
 					<i class="pointer v-icon go-gray v-attention-alt h-yellow"
 					   :class="list.description ? '' : 'display-hidden'"
 					   @click="showDescription = !showDescription"></i>
@@ -51,7 +51,7 @@
 				<el-tooltip content="Delete Comment"
 				            placement="top"
 				            transition="false"
-				            :open-delay="500">
+				            :open-delay="100">
 					<i class="pointer v-icon go-gray v-delete h-red"
 					   @click="$emit('disapprove-comment', list.comment.id)"
 					   :class="list.solved_at ? 'display-hidden' : ''"></i>
@@ -60,7 +60,7 @@
 				<el-tooltip content="Approve Comment"
 				            placement="top"
 				            transition="false"
-				            :open-delay="500">
+				            :open-delay="100">
 					<i class="pointer v-icon go-gray v-approve h-green"
 					   @click="$emit('approve-comment', list.comment.id)"
 					   :class="list.comment.approved_at ? 'display-hidden' : ''"></i>

@@ -13,7 +13,7 @@
             </div>
 
             <div class="actions">
-                <el-tooltip content="Remove" placement="top" transition="false" :open-delay="500">
+                <el-tooltip content="Remove" placement="top" transition="false" :open-delay="100">
                     <i class="pointer v-icon go-gray v-delete h-red" @click="destroy" :class="!owns ? '' : 'display-hidden'"></i>
                 </el-tooltip>
             </div>

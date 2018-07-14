@@ -17,7 +17,7 @@
 				            content="Comments"
 				            placement="top"
 				            transition="false"
-				            :open-delay="500">
+				            :open-delay="100">
 					<router-link :to="url"
 					             class="comments-icon h-green">
 						<i class="v-icon v-comment"></i>
@@ -31,7 +31,7 @@
 				            :content="bookmarked ? 'Unbookmark' : 'Bookmark'"
 				            placement="top"
 				            transition="false"
-				            :open-delay="500">
+				            :open-delay="100">
 					<a @click="$emit('bookmark')">
 						<i class="v-icon h-yellow pointer"
 						   :class="bookmarked ? 'go-yellow v-unbookmark' : 'v-bookmark'"></i>
@@ -94,7 +94,7 @@
 			            content="Comments"
 			            placement="top"
 			            transition="false"
-			            :open-delay="500">
+			            :open-delay="100">
 				<router-link :to="url"
 				             class="comments-icon h-green">
 					<i class="v-icon v-comment"></i>
@@ -108,7 +108,7 @@
 			            :content="bookmarked ? 'Unbookmark' : 'Bookmark'"
 			            placement="top"
 			            transition="false"
-			            :open-delay="500">
+			            :open-delay="100">
 				<a @click="$emit('bookmark')">
 					<i class="v-icon h-yellow pointer"
 					   :class="bookmarked ? 'go-yellow v-unbookmark' : 'v-bookmark'"></i>

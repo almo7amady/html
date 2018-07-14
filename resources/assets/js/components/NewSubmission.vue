@@ -189,7 +189,7 @@
 					<el-tooltip content="Photo(s)"
 					            placement="top"
 					            transition="false"
-					            :open-delay="500">
+					            :open-delay="100">
 						<i class="v-icon v-photo"
 						   :class="{ 'go-primary': submissionType == 'img'}"
 						   @click="changeSubmissionType('img')"></i>
@@ -198,7 +198,7 @@
 					<el-tooltip content="Link"
 					            placement="top"
 					            transition="false"
-					            :open-delay="500">
+					            :open-delay="100">
 						<i class="v-icon v-link"
 						   :class="{ 'go-primary': submissionType == 'link'}"
 						   @click="changeSubmissionType('link')"></i>
@@ -207,7 +207,7 @@
 					<el-tooltip content="Text"
 					            placement="top"
 					            transition="false"
-					            :open-delay="500">
+					            :open-delay="100">
 						<i class="v-icon v-text"
 						   :class="{ 'go-primary': submissionType == 'text'}"
 						   @click="changeSubmissionType('text')"></i>
@@ -216,7 +216,7 @@
 					<el-tooltip content="Animated GIF"
 					            placement="top"
 					            transition="false"
-					            :open-delay="500">
+					            :open-delay="100">
 						<i class="v-icon v-gif"
 						   :class="{ 'go-primary': submissionType == 'gif'}"
 						   @click="changeSubmissionType('gif')"></i>

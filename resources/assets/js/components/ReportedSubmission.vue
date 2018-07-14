@@ -24,13 +24,13 @@
                 </div>
             </el-popover>
 
-            <el-tooltip :content="list.subject" placement="top" transition="false" :open-delay="500">
+            <el-tooltip :content="list.subject" placement="top" transition="false" :open-delay="100">
                 <div class="detail">
                     {{ str_limit(list.subject, 20) }}
                 </div>
             </el-tooltip>
 
-            <el-tooltip :content="longDate" placement="top" transition="false" :open-delay="500">
+            <el-tooltip :content="longDate" placement="top" transition="false" :open-delay="100">
                 <small>
                     <router-link :to="'/@' + list.reporter.username">
                         {{ date }}
@@ -39,19 +39,19 @@
             </el-tooltip>
 
             <div class="actions">
-                <el-tooltip content="Description" placement="top" transition="false" :open-delay="500">
+                <el-tooltip content="Description" placement="top" transition="false" :open-delay="100">
                     <i class="pointer v-icon go-gray v-attention-alt h-yellow"
                        :class="list.description ? '' : 'display-hidden'" @click="showDescription = !showDescription"
                     ></i>
                 </el-tooltip>
 
-                <el-tooltip content="Delete Submission" placement="top" transition="false" :open-delay="500">
+                <el-tooltip content="Delete Submission" placement="top" transition="false" :open-delay="100">
                     <i class="pointer v-icon go-gray v-delete h-red"
                        @click="$emit('disapprove-submission', list.submission.id)"
                        :class="list.submission.solved_at ? 'display-hidden' : ''"></i>
                 </el-tooltip>
 
-                <el-tooltip content="Approve Submission" placement="top" transition="false" :open-delay="500">
+                <el-tooltip content="Approve Submission" placement="top" transition="false" :open-delay="100">
                     <i class="pointer v-icon go-gray v-approve h-green"
                        @click="$emit('approve-submission', list.submission.id)"
                        :class="list.submission.approved_at ? 'display-hidden' : ''"></i>

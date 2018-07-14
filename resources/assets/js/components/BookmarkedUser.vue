@@ -17,13 +17,13 @@
 
                     <div class="flex-align-center">
                         <el-tooltip :content="bookmarked ? 'Unbookmark' : 'Bookmark'" placement="top"
-                                    transition="false" :open-delay="500">
+                                    transition="false" :open-delay="100">
                             <i class="v-icon h-yellow pointer"
                                :class="bookmarked ? 'go-yellow v-unbookmark' : 'v-bookmark go-gray'" @click="bookmark"></i>
                         </el-tooltip>
                         
                         <el-tooltip content="Start a private conversation" placement="top"
-                                    transition="false" :open-delay="500">
+                                    transition="false" :open-delay="100">
                             <i class="v-icon go-green v-chat pointer" @click="sendMessage(list)"></i>
                         </el-tooltip>
                     </div>

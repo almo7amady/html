@@ -106,7 +106,7 @@
 							<el-tooltip :content="bookmarked ? 'Unbookmark' : 'Bookmark'"
 							            placement="top"
 							            transition="false"
-							            :open-delay="500">
+							            :open-delay="100">
 								<i class="v-icon margin-left-1"
 								   :class="{ 'go-yellow v-unbookmark': bookmarked, 'v-bookmark': !bookmarked }"
 								   @click="bookmark"></i>
@@ -115,7 +115,7 @@
 							<el-tooltip content="Reply"
 							            placement="top"
 							            transition="false"
-							            :open-delay="500">
+							            :open-delay="100">
 								<i class="v-icon v-reply margin-left-1"
 								   @click="commentReply"
 								   v-if="list.nested_level < 8 && full"></i>
@@ -124,7 +124,7 @@
 							<el-tooltip content="Submission"
 							            placement="top"
 							            transition="false"
-							            :open-delay="500">
+							            :open-delay="100">
 								<a class="reply margin-left-1"
 								   v-if="!full"
 								   @click.prevent="openOrigin">
@@ -146,7 +146,7 @@
 						<el-tooltip :content="'Edited: ' + editedDate"
 						            placement="top"
 						            transition="false"
-						            :open-delay="500"
+						            :open-delay="100"
 						            v-if="isEdited">
 							<span class="edited go-gray">
 								Edited
@@ -161,7 +161,7 @@
 						<el-tooltip :content="'Created: ' + longDate"
 						            placement="top"
 						            transition="false"
-						            :open-delay="500">
+						            :open-delay="100">
 							<a class="date margin-right-1"
 							   @click.prevent="openOrigin">
 								{{ date }}

@@ -123,7 +123,7 @@
 					<el-tooltip :content="bookmarked ? 'Unbookmark user' : 'Bookmark user'"
 					            placement="bottom"
 					            transition="false"
-					            :open-delay="500">
+					            :open-delay="100">
 						<i class="v-icon h-yellow pointer"
 						   :class="bookmarked ? 'go-yellow v-unbookmark' : 'v-bookmark go-gray'"
 						   @click="bookmark"
