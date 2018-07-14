@@ -33,9 +33,9 @@ class GifController extends Controller
         $this->validate($request, [
             'file' => 'required|mimes:gif|max:51200',
         ]);
+        $file = new file();
 
         $file = $request->file('file');
-        $photo->user_id = Auth::id();
 
         $filename = time().str_random(16);
 
