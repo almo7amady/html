@@ -148,7 +148,7 @@ class SubmissionController extends Controller
         if ($request->type === 'gif') {
             DB::table('gifs')
                 ->where('id', $request->gif_id)
-               // ->where('user_id', Auth::id())
+                ->where('user_id', Auth::id())
                 ->update(['submission_id' => $submission_id]);
         }
     }
@@ -274,7 +274,6 @@ class SubmissionController extends Controller
                 'embed'         => $submission->data['embed'],
                 'img'           => null,
                 'thumbnail'     => null,
-                'gif'           => null,
                 'providerName'  => $submission->data['providerName'],
                 'publishedTime' => $submission->data['publishedTime'],
                 'domain'        => $submission->data['domain'] ?? domain($submission->data['url']),

@@ -54,10 +54,10 @@ class GifController extends Controller
                 ]))
                 ->save('submissions/gif/'.$filename.'.mp4')
                 // thumbnail
-                ->getFrameFromSeconds(1)
-                ->export()
-                ->toDisk('local')
-                ->save('submissions/gif/'.$filename.'.jpg');
+                -//>getFrameFromSeconds(1)
+               // ->export()
+               // ->toDisk('local')
+               // ->save('submissions/gif/'.$filename.'.jpg');
         } catch (\Exception $exception) {
             return response("We couldn't process the uploaded GIF at this time. Please try another one. ", 500);
         }
