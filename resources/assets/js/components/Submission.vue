@@ -318,6 +318,10 @@ export default {
                 return {
                     backgroundImage: 'url(' + this.list.content.thumbnail_path + ')'
                 };
+            } else if (this.type === 'gif') {
+                return {
+                    backgroundImage: 'url(' + this.list.content.thumbnail_path + ')'
+                };
             }
         },
 
