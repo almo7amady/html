@@ -31,9 +31,8 @@ class GifController extends Controller
     public function store(Request $request)
     {
         $this->validate($request, [
-            'file' => 'required|mimes:gif|max:51200',
+            'file' => 'required|gif|max:51200',
         ]);
-        $file = new file();
 
         $file = $request->file('file');
 
