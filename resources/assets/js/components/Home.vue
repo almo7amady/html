@@ -14,12 +14,11 @@
                                  :class="{ 'is-active': sort == 'new' }">
                         New
                     </router-link>
-<!--
+
                     <router-link :to="{ path: '/?sort=rising' }" class="nav-item is-tab"
                                  :class="{ 'is-active': sort == 'rising' }">
                         Rising
                     </router-link>
--->
                 </div>
 
                 <el-tooltip content="Scroll to top" placement="bottom" transition="false" :open-delay="500">
@@ -57,7 +56,7 @@
 
             <no-content v-if="Store.page.home.nothingFound"
                         :text="
-                        'Sign up Now, Search For Root Speciality, Participate With Your Wonderful Cases and Have Fun With Other Cases. No Subscribtions at this time. Try subscribing to more Roots or adjusting your feed filters.'">
+                        'Search For More Roots, Participate With Your Wonderful Cases and Have Fun With Other Cases. No Subscribtions at this time. Try subscribing to more Roots or adjusting your feed filters.'">
             </no-content>
 
             <loading v-if="loading && page > 1"></loading>
