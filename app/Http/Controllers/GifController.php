@@ -46,18 +46,18 @@ class GifController extends Controller
                 // mp4
                 ->export()
                 ->toDisk('local')
-                ->inFormat((new \FFMpeg\Format\Video\X264())->setAdditionalParameters([
-                    '-movflags', 'faststart',
-                    '-pix_fmt', 'yuv420p',
-                    '-preset', 'veryslow',
-                    '-b:v', '500k',
-                ]))
-                ->save('submissions/gif/'.$filename.'.mp4');
+                //->inFormat((new \FFMpeg\Format\Video\X264())->setAdditionalParameters([
+                  //  '-movflags', 'faststart',
+                  //  '-pix_fmt', 'yuv420p',
+                  //  '-preset', 'veryslow',
+                  //  '-b:v', '500k',
+                //]))
+                ->save('submissions/gif/'.$filename.'.mp4')
                 // thumbnail
-                //->getFrameFromSeconds(1)
-               // ->export()
-               // ->toDisk('local')
-               // ->save('submissions/gif/'.$filename.'.jpg');
+                ->getFrameFromSeconds(1)
+                ->export()
+                ->toDisk('local')
+                ->save('submissions/gif/'.$filename.'.jpg');
         } catch (\Exception $exception) {
             return response("We couldn't process the uploaded GIF at this time. Please try another one. ", 500);
         }
