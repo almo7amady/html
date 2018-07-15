@@ -180,7 +180,7 @@ class ChannelController extends Controller
     public function store(Request $request)
     {
         $this->validate($request, [
-            'name'        => ['required', 'alpha_num', 'min:3', 'max:50', 'unique:channels', new \App\Rules\NotForbiddenChannelName()],
+            'name'        => ['required', 'regex:/^[A-Za-z0-9\._ ]+$/', 'min:3', 'max:50', 'unique:channels', new \App\Rules\NotForbiddenChannelName()],
             'description' => 'required|min:10|max:250',
         ]);
 
