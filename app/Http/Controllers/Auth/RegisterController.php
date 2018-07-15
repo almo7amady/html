@@ -40,7 +40,7 @@ class RegisterController extends Controller
     protected function validator(array $data)
     {
         return Validator::make($data, [
-            'username'             => ['required', 'min:3', 'max:25', 'unique:users', 'regex:/^[A-Za-z0-9\._]+$/', new NotForbiddenUsername()],
+            'username'             => ['required', 'min:3', 'max:25', 'unique:users', 'regex:/^[A-Za-z0-9\._ ]+$/', new NotForbiddenUsername()],
             'email'                => 'required|email|max:255|unique:users|nullable',
             'password'             => 'required|min:6|confirmed',
             'g-recaptcha-response' => ['required', new Recaptcha()],
