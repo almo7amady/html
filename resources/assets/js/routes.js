@@ -98,11 +98,6 @@ const routes = [
                 name: 'admin-panel-comments'
             },
             {
-                path: 'channels',
-                component: AdminPanelactiveChannels,
-                name: 'admin-panel-active-channels'
-            },
-            {
                 path: 'channels/suggested',
                 component: AdminPanelSuggestedChannels,
                 name: 'admin-panel-suggested-channels'
