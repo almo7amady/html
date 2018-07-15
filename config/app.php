@@ -17,7 +17,7 @@ return [
     'description'      => 'An informative, beautiful, highly customizable yet deadly simple, and warm healthcare community. Tutorial can be found here (https://www.youtube.com/watch?v=qSSGzTd6NKg&t=406s). ',
     'logo'             => 'favicon.png',
     'twitter_username' => '@case_root',
-    'twitter-url'      => 'https://twitter.com/elmo7amady',
+    'twitter-url'      => 'https://twitter.com/case_root',
     'facebook_url'     => 'https://www.facebook.com/caseroot',
     'blog_url'         => 'https://medium.com/@almohamady7',
     'favicon'          => env('FAVICON_PATH', '/imgs/favicon.png'), 
