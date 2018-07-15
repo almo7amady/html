@@ -52,8 +52,8 @@
 					           @click="destroy(scope.row.id)"
 					           size="small">Delete</el-button>
 
-					<!-- <el-button type="text"
-					           size="small">Moderators</el-button> -->
+					<el-button type="text"
+					           size="small">Moderators</el-button>
 				</template>
 			</el-table-column>
 		</el-table>

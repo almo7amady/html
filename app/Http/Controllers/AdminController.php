@@ -27,7 +27,7 @@ class AdminController extends Controller
 
     public function __construct()
     {
-        $this->middleware('voten-administrator', ['except' => ['isAdministrator']]);
+        $this->middleware('administrator', ['except' => ['isAdministrator']]);
     }
 
     public function activities()
