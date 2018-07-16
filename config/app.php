@@ -14,7 +14,7 @@ return [
 
     'name'             => 'Case Root',
     'title'            => 'Case Root: Where your initiation matters',
-    'description'      => 'An informative, beautiful, highly customizable yet deadly simple, and warm healthcare community. Tutorial can be found here (https://www.youtube.com/watch?v=qSSGzTd6NKg&t=406s). ',
+    'description'      => 'An informative, beautiful, highly customizable yet deadly simple, and warm healthcare community. Tutorial can be found here (https://www.facebook.com/pg/caseroot/videos). ',
     'logo'             => 'favicon.png',
     'twitter_username' => '@case_root',
     'twitter-url'      => 'https://twitter.com/case_root',
