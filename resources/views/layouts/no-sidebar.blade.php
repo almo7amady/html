@@ -60,15 +60,15 @@ a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,
 twq('init','nzv10');
 twq('track','PageView');
 </script>
-<!-- End Twitter universal website tag code -->
+<!-- End Twitter universal website tag code
 
 <script>
   window.fbAsyncInit = function() {
     FB.init({
-      appId      : '{your-app-id}',
+      appId      : '626748574378717',
       cookie     : true,
       xfbml      : true,
-      version    : '{api-version}'
+      version    : 'v3.0'
     });
       
     FB.AppEvents.logPageView();   
@@ -82,6 +82,11 @@ twq('track','PageView');
      js.src = "https://connect.facebook.net/en_US/sdk.js";
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
+
+   FB.getLoginStatus(function(response) {
+    statusChangeCallback(response);
+});
 </script>
+-->
 </body>
 </html>

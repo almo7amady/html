@@ -85,7 +85,7 @@ a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,
 twq('init','nzv10');
 twq('track','PageView');
 </script>
-<!-- End Twitter universal website tag code -->
+<!-- End Twitter universal website tag code 
 <script>
   window.fbAsyncInit = function() {
     FB.init({
@@ -107,5 +107,6 @@ twq('track','PageView');
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
 </script>
+-->
 </body>
 </html>
