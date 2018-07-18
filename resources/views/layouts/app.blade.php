@@ -8,16 +8,9 @@
     @yield('head')
     <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/lib/js/emojione.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/css/emojione.min.css"/>
    
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-    (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-8027817553143626",
-        enable_page_level_ads: true
-    });
-    </script>
+
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
@@ -76,7 +69,7 @@
 	<script src="{{ mix('/js/app.js') }}"></script>
 @yield('footer')
 
-<!-- Twitter universal website tag code -->
+<!-- Twitter universal website tag code
 <script>
 !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
 },s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
@@ -85,7 +78,7 @@ a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,
 twq('init','nzv10');
 twq('track','PageView');
 </script>
-<!-- End Twitter universal website tag code 
+
 <script>
   window.fbAsyncInit = function() {
     FB.init({
@@ -107,6 +100,14 @@ twq('track','PageView');
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
 </script>
+
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-8027817553143626",
+        enable_page_level_ads: true
+    });
+    </script>
 -->
 </body>
 </html>
