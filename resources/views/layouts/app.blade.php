@@ -7,7 +7,7 @@
 
     @yield('head')
     <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/lib/js/emojione.min.js"></script>
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/lib/js/emojione.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/css/emojione.min.css"/>
    
 
@@ -64,9 +64,9 @@
 @include('php-to-js-data')
 
 @yield('script')
-	<script src="{{ mix('/js/manifest.js') }}"></script>
-	<script src="{{ mix('/js/vendor.js') }}"></script>
-	<script src="{{ mix('/js/app.js') }}"></script>
+	<script async src="{{ mix('/js/manifest.js') }}"></script>
+	<script async src="{{ mix('/js/vendor.js') }}"></script>
+	<script async src="{{ mix('/js/app.js') }}"></script>
 @yield('footer')
 
 <!-- Twitter universal website tag code
