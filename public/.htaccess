@@ -15,8 +15,8 @@
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
-
 </IfModule>
+
 <IfModule mod_expires.c>
 # Enable expirations
 ExpiresActive On 
@@ -33,4 +33,11 @@ ExpiresByType image/jpeg "access plus 1 month"
 ExpiresByType text/css "access plus 1 month"
 # Javascript
 ExpiresByType application/javascript "access plus 1 year"
+</IfModule>
+
+<IfModule mod_headers.c>
+# WEEK
+<FilesMatch "\.(jpg|jpeg|png|gif|swf|js|css)$">
+    Header set Cache-Control "max-age=604800, public"
+</FilesMatch>
 </IfModule>
