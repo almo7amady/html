@@ -35,9 +35,3 @@ ExpiresByType text/css "access plus 1 month"
 ExpiresByType application/javascript "access plus 1 year"
 </IfModule>
 
-<IfModule mod_headers.c>
-# WEEK
-<FilesMatch "\.(jpg|jpeg|png|gif|swf|js|css)$">
-    Header set Cache-Control "max-age=604800, public"
-</FilesMatch>
-</IfModule>
