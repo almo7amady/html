@@ -8,8 +8,7 @@
     @yield('head')
 
     @yield('title')
-    <!--<link rel="stylesheet" href="{{ mix('/css/app.css') }}">-->
-    <link rel="stylesheet" href="https://caseroot.ams3.digitaloceanspaces.com/cdn/app.css">
+    <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/lib/js/emojione.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/css/emojione.min.css"/>
 
@@ -51,14 +50,9 @@
 
 @yield('script')
     <script src='https://www.google.com/recaptcha/api.js'></script>
-	<!--
-    <script src="{{ mix('/js/manifest.js') }}"></script>
+	<script src="{{ mix('/js/manifest.js') }}"></script>
 	<script src="{{ mix('/js/vendor.js') }}"></script>
 	<script src="{{ mix('/js/app.js') }}"></script>
-    -->
-	<script src="https://caseroot.ams3.digitaloceanspaces.com/cdn/manifest.js"></script>
-	<script src="https://caseroot.ams3.digitaloceanspaces.com/cdn/vendor.js"></script>
-	<script src="https://caseroot.ams3.digitaloceanspaces.com/cdn/app.js"></script>
 @yield('footer')
 </body>
 </html>
