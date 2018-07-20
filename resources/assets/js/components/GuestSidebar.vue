@@ -88,7 +88,7 @@
 			<h3>New to Case Root?</h3>
 
 			<p>
-				More than 90% of Case Root's impressive features are either disabled or hidden for guests. Registration takes only a few seconds and doesn't even require an email address!
+				More than 90% of Case Root's impressive features are either disabled or hidden for guests. Registration takes only a few seconds!
 			</p>
 
 			<el-button round type="primary"
