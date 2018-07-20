@@ -137,7 +137,7 @@
   .el-list-enter,
   .el-list-leave-active{opacity:0;-webkit-transform:translateY(-30px);transform:translateY(-30px);}
   .el-opacity-transition{-webkit-transition:opacity 0.3s cubic-bezier(0.55, 0, 0.1, 1);transition:opacity 0.3s cubic-bezier(0.55, 0, 0.1, 1);}
-  @font-face{font-family:'element-icons';src:url(https://www.caseroot.com/fonts/vendor/element-ui/packages/theme-chalk/src/element-icons.woff?2fad952a20fbbcfd1bf2ebb210dccf7a) format("woff"), url(/fonts/vendor/element-ui/packages/theme-chalk/src/element-icons.ttf?6f0a76321d30f3c8120915e57f7bd77e) format("truetype");font-weight:normal;font-style:normal;}
+  @font-face{font-family:'element-icons';src:url(https://www.caseroot.com/fonts/vendor/element-ui/packages/theme-chalk/src/element-icons.woff?2fad952a20fbbcfd1bf2ebb210dccf7a) format("woff"), url(https://www.caseroot.com/fonts/vendor/element-ui/packages/theme-chalk/src/element-icons.ttf?6f0a76321d30f3c8120915e57f7bd77e) format("truetype");font-weight:normal;font-style:normal;}
   [class^="el-icon-"],
   [class*=" el-icon-"]{font-family:'element-icons' !important;speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;vertical-align:baseline;display:inline-block;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
   .el-icon-info:before{content:"\E61A";}
