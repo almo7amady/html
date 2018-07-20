@@ -123,7 +123,7 @@
 				<a href="mailto:almo7amady7@gmail.com">Contact</a>
 			</li>
 			<li>
-				<a href="mailto:barakatahmed@gmail.com">Press</a>
+				<a href="mailto:barakatahmedoncall@gmail.com">Press</a>
 			</li>
 			<li>
 				<a href="https://www.facebook.com/caseroot"
