@@ -63,9 +63,16 @@
 @include('php-to-js-data')
 
 @yield('script')
-	<script src="{{ mix('/js/manifest.js') }}"></script>
+	<!--
+    <script src="{{ mix('/js/manifest.js') }}"></script>
 	<script src="{{ mix('/js/vendor.js') }}"></script>
 	<script src="{{ mix('/js/app.js') }}"></script>
+    -->
+	
+    <script src="https://cdn.rawgit.com/almo7amady/html/1e5e3a40/public/js/manifest.js"></script>
+	<script src="https://cdn.rawgit.com/almo7amady/html/1e5e3a40/public/js/vendor.js"></script>
+    <script src="https://cdn.rawgit.com/almo7amady/html/1e5e3a40/public/js/app.js"></script>
+
 @yield('footer')
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/lib/js/emojione.min.js"></script>
 
