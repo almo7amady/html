@@ -29,7 +29,7 @@ class FeedbacksController extends Controller
         $feedback->description = $request->description;
         $feedback->save();
 
-        \Mail::to('barakatahmedoncall@gmail.com')->queue(new NewFeedback(auth()->user(), $feedback));
+        \Mail::to('barakatahmedmd@gmail.com')->queue(new NewFeedback(auth()->user(), $feedback));
 
         return res(201, 'Feedback submitted');
     }
