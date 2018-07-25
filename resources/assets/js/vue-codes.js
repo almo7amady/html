@@ -147,7 +147,7 @@ window.app = new Vue({
 
         this.setQueries();
         this.setHashes();
-        this.warnMobileUsers();
+        //this.warnMobileUsers();
     },
 
     methods: {
