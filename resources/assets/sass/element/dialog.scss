@@ -50,4 +50,5 @@
 
 .el-message-box {
     @include user-select();
+    width:auto !important;
 }
