@@ -37,9 +37,9 @@
 
 @include('php-to-js-data')
 
-<script src="{{ mix('/js/manifest.js') }}"></script>
-<script src="{{ mix('/js/vendor.js') }}"></script>
-{{--  <script src="{{ mix('/js/app.js') }}"></script>  --}}
+    <script src="https://cdn.rawgit.com/almo7amady/html/e42928a7/public/js/manifest.js"></script>
+	<script src="https://cdn.rawgit.com/almo7amady/html/e42928a7/public/js/vendor.js"></script>
+{{-- <script src="https://cdn.rawgit.com/almo7amady/html/e42928a7/public/js/app.js"></script>  --}}
 
 </body>
 </html>
