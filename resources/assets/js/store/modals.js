@@ -76,10 +76,10 @@ export default {
         show: false,
         hash: 'search'
     },
-    mobileVisitorWarning: {
-        show: false,
-        hash: 'mobileVisitorWarning'
-    },
+    //mobileVisitorWarning: {
+    //    show: false,
+    //    hash: 'mobileVisitorWarning'
+    //},
     banUser: {
         show: false,
         hash: 'banUser',

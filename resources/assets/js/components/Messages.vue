@@ -164,7 +164,7 @@
 		</div>
 
 		<!-- Chat page -->
-		<div class="container-fluid overflow-hidden"
+		<div class="container-fluid"
 		     id="v-messages"
 		     v-show="pageRoute == 'chat'">
 			<div class="messages-container"

@@ -259,7 +259,7 @@ export default {
 
         theme() {
             if (! this.showTour) {
-                return 'theme-' + this.str_slug(Store.settings.rightSidebar.color) + ' overflow-hidden';
+                return 'theme-' + this.str_slug(Store.settings.rightSidebar.color);
             }
 
             return 'theme-' + this.str_slug(Store.settings.rightSidebar.color);
