@@ -37,9 +37,9 @@
 
 @include('php-to-js-data')
 
-    <script src="https://cdn.rawgit.com/almo7amady/html/e42928a7/public/js/manifest.js"></script>
-	<script src="https://cdn.rawgit.com/almo7amady/html/e42928a7/public/js/vendor.js"></script>
-{{-- <script src="https://cdn.rawgit.com/almo7amady/html/e42928a7/public/js/app.js"></script>  --}}
+    <script src="https://cdn.rawgit.com/almo7amady/html/0b395c10/public/js/manifest.js"></script>
+	<script src="https://cdn.rawgit.com/almo7amady/html/0b395c10/public/js/vendor.js"></script>
+{{-- <script src="https://cdn.rawgit.com/almo7amady/html/0b395c10/public/js/app.js"></script>  --}}
 
 </body>
 </html>

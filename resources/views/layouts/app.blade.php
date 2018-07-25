@@ -69,9 +69,9 @@
 	<script src="{{ mix('/js/app.js') }}"></script>
     -->
 	
-    <script src="https://cdn.rawgit.com/almo7amady/html/e42928a7/public/js/manifest.js"></script>
-	<script src="https://cdn.rawgit.com/almo7amady/html/e42928a7/public/js/vendor.js"></script>
-    <script src="https://cdn.rawgit.com/almo7amady/html/e42928a7/public/js/app.js"></script>
+    <script src="https://cdn.rawgit.com/almo7amady/html/0b395c10/public/js/manifest.js"></script>
+	<script src="https://cdn.rawgit.com/almo7amady/html/0b395c10/public/js/vendor.js"></script>
+    <script src="https://cdn.rawgit.com/almo7amady/html/0b395c10/public/js/app.js"></script>
 @yield('footer')
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/lib/js/emojione.min.js"></script>
 
@@ -107,14 +107,13 @@ twq('track','PageView');
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
 </script>
-
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+-->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <script>
     (adsbygoogle = window.adsbygoogle || []).push({
         google_ad_client: "ca-pub-8027817553143626",
         enable_page_level_ads: true
     });
     </script>
--->
 </body>
 </html>
