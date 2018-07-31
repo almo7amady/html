@@ -50,7 +50,7 @@ class GifController extends Controller
                     '-movflags', 'faststart',
                     '-pix_fmt', 'yuv420p',
                     '-preset', 'veryslow',
-                    '-b:v', '500k',
+                    '-b:v', '1024k',
                 ]))
                 ->save('submissions/gif/'.$filename.'.mp4')
                 // thumbnail
