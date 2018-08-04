@@ -17,13 +17,13 @@
 
     <link rel="shortcut icon" href="{{ config('app.favicon') }}">
 
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-    (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-8027817553143626",
-        enable_page_level_ads: true
-    });
-    </script>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-9880911609043799",
+    enable_page_level_ads: true
+  });
+</script>
 </head>
 
 <body>
