@@ -13,7 +13,7 @@ return [
     */
 
     'name'             => 'Case Root',
-    'title'            => 'Case Root: Where your initiation matters',
+    'title'            => 'Meical Flow Portal ',
     'description'      => 'An informative, beautiful, highly customizable yet deadly simple, and warm healthcare community. Tutorial can be found here (https://www.facebook.com/pg/caseroot/videos). ',
     'logo'             => 'favicon.png',
     'twitter_username' => '@case_root',
