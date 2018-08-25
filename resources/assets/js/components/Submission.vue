@@ -66,7 +66,6 @@
                 font-weight: bold;
                 display: inline-flex;
                 align-items: center;
-                min-width: 80px;
                 color: #4c4b4b;
             }
         }
