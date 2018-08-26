@@ -37,9 +37,9 @@
 
 @yield('script')
     <script src='https://www.google.com/recaptcha/api.js'></script>
-    <script src="https://cdn.rawgit.com/almo7amady/html/cbb41113/public/js/manifest.js"></script>
-	<script src="https://cdn.rawgit.com/almo7amady/html/cbb41113/public/js/vendor.js"></script>
-    <script src="https://cdn.rawgit.com/almo7amady/html/cbb41113/public/js/app.js"></script>
+    <script src="https://cdn.rawgit.com/almo7amady/html/62086ecf/public/js/manifest.js"></script>
+	<script src="https://cdn.rawgit.com/almo7amady/html/62086ecf/public/js/vendor.js"></script>
+    <script src="https://cdn.rawgit.com/almo7amady/html/62086ecf/public/js/app.js"></script>
 @yield('footer')
 
 </body>
