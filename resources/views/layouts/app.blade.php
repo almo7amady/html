@@ -113,6 +113,10 @@ twq('track','PageView');
 
 <script data-cfasync='false' type='text/javascript' src='//p310774.clksite.com/adServe/banners?tid=310774_605546_0&size=7'></script>
 
+<script type='text/javascript' src='//p310774.clksite.com/adServe/banners?tid=310774_605546_3&type=floating_banner&size=6&position=center'></script>
+
+<script data-cfasync='false' type='text/javascript' src='//p310774.clksite.com/adServe/banners?tid=310774_605546_4'></script>
+
 <script type="text/javascript">
 var infolinks_pid = 3124367;
 var infolinks_wsid = 0;
