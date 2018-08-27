@@ -66,7 +66,7 @@
 
     <script data-cfasync='false' type='text/javascript' src='//p310774.clksite.com/adServe/banners?tid=310774_605546_5&type=slider&side=right&size=38'></script>
     <script data-cfasync='false' type='text/javascript' src='//p310774.clksite.com/adServe/banners?tid=310774_605546_4'></script>
-
+    <meta name="propeller" content="3f496c4c3184ad2489106e0e8238080d">
     <script type="text/javascript"> 
     //default pop-under house ad url 
     clicksor_enable_pop = true; 
