@@ -17,13 +17,7 @@
 
     <link rel="shortcut icon" href="{{ config('app.favicon') }}">
 
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-    (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-9880911609043799",
-        enable_page_level_ads: true
-    });
-    </script>
+    
 </head>
 
 <body>
@@ -116,6 +110,25 @@ twq('track','PageView');
    }(document, 'script', 'facebook-jssdk'));
 </script>
 -->
+
+<script data-cfasync='false' type='text/javascript' src='//p310774.clksite.com/adServe/banners?tid=310774_605546_0&size=7'></script>
+
+<script type="text/javascript">
+var infolinks_pid = 3124367;
+var infolinks_wsid = 0;
+</script>
+<script type="text/javascript" src="http://resources.infolinks.com/js/infolinks_main.js"></script>
+
+<script type="text/javascript">
+( function() {
+if (window.CHITIKA === undefined) { window.CHITIKA = { 'units' : [] }; };
+var unit = {"calltype":"async[2]","publisher":"almohamady7","width":550,"height":250,"sid":"Chitika Default"};
+var placement_id = window.CHITIKA.units.length;
+window.CHITIKA.units.push(unit);
+document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
+}());
+</script>
+<script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
 
 </body>
 </html>
