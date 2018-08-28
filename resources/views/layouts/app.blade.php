@@ -111,8 +111,10 @@ twq('track','PageView');
 </script>
 -->
 
-    <script data-cfasync='false' type='text/javascript' src='//p310774.clksite.com/adServe/banners?tid=310774_605546_5&type=slider&side=right&size=38'></script>
-    <script type='text/javascript' src='//p310774.clksite.com/adServe/banners?tid=310774_605546_3&type=floating_banner&size=6&position=center'></script>
+    <script type="text/javascript"> var infolinks_pid = 3124710; var infolinks_wsid = 0; </script> <script type="text/javascript" src="https://resources.infolinks.com/js/infolinks_main.js"></script>
+
+    <script data-cfasync='false' type='text/javascript' src='https://p310774.clksite.com/adServe/banners?tid=310774_605546_5&type=slider&side=right&size=38'></script>
+    <script type='text/javascript' src='https://p310774.clksite.com/adServe/banners?tid=310774_605546_3&type=floating_banner&size=6&position=center'></script>
 
     <script type="text/javascript"> 
     //default pop-under house ad url 
@@ -128,7 +130,7 @@ twq('track','PageView');
     clicksor_text_link_color = '';
     clicksor_enable_inter=true;
     </script>
-    <script type="text/javascript" src="http://b.clicksor.net/show.php?nid=1&amp;pid=392686&amp;sid=655863"></script>
+    <script type="text/javascript" src="https://b.clicksor.net/show.php?nid=1&amp;pid=392686&amp;sid=655863"></script>
 
     <script type="text/javascript"> 
     clicksor_adhere_opt='right:100%'; 
@@ -151,7 +153,7 @@ twq('track','PageView');
     clicksor_enable_layer_pop = false;
     clicksor_enable_pop = true;
     </script>
-    <script type="text/javascript" src="http://b.clicksor.net/show.php?nid=1&amp;pid=392686&amp;adtype=10&amp;sid=655863"></script>
+    <script type="text/javascript" src="https://b.clicksor.net/show.php?nid=1&amp;pid=392686&amp;adtype=10&amp;sid=655863"></script>
 
     
 <script type="text/javascript">
@@ -177,7 +179,7 @@ clicksor_layer_ad_text_color = '#666666'; clicksor_text_link_bg = '';
 clicksor_text_link_color = '#3cff73'; clicksor_enable_text_link = true;
 clicksor_layer_banner = false;
 </script>
-<script type="text/javascript" src="http://b.clicksor.net/show.php?nid=1&amp;pid=392686&amp;adtype=6&amp;sid=655863&amp;float=1"></script>
+<script type="text/javascript" src="https://b.clicksor.net/show.php?nid=1&amp;pid=392686&amp;adtype=6&amp;sid=655863&amp;float=1"></script>
 
 
     <script data-cfasync="false" type="text/javascript">
@@ -193,10 +195,10 @@ clicksor_layer_banner = false;
     document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
     }());
     </script>
-    <script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
+    <script type="text/javascript" src="https://cdn.chitika.net/getads.js" async></script>
 
      <!-- Begin BidVertiser code -->
-    <SCRIPT data-cfasync="false" SRC="//bdv.bidvertiser.com/BidVertiser.dbm?pid=819264&bid=1958620" TYPE="text/javascript"></SCRIPT>
+    <SCRIPT data-cfasync="false" SRC="https://bdv.bidvertiser.com/BidVertiser.dbm?pid=819264&bid=1958620" TYPE="text/javascript"></SCRIPT>
 <!-- End BidVertiser code --> 
 
 </body>
