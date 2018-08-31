@@ -110,6 +110,27 @@ twq('track','PageView');
    }(document, 'script', 'facebook-jssdk'));
 </script>
 -->
+    <script type="text/javascript">
+        ( function() {
+            if (window.CHITIKA === undefined) { window.CHITIKA = { 'units' : [] }; };
+            var unit = {"calltype":"async[2]","publisher":"almohamady7","width":320,"height":50,"sid":"Chitika Default"};
+            var placement_id = window.CHITIKA.units.length;
+            window.CHITIKA.units.push(unit);
+            document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
+        }());
+    </script>
+   
+   <script type="text/javascript">
+    ( function() {
+        if (window.CHITIKA === undefined) { window.CHITIKA = { 'units' : [] }; };
+        var unit = {"calltype":"async[2]","publisher":"almohamady7","width":728,"height":90,"sid":"Chitika Default"};
+        var placement_id = window.CHITIKA.units.length;
+        window.CHITIKA.units.push(unit);
+        document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
+    }());
+    </script>
+<script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
+   
     <script type='text/javascript' src='//p310774.clksite.com/adServe/banners?tid=310774_605546_6&type=floating_banner&size=6&position=center'></script>
 
     <script data-cfasync='false' type='text/javascript' src='//p310774.clksite.com/adServe/banners?tid=310774_605546_0&size=7'></script>
