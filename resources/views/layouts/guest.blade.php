@@ -82,7 +82,7 @@
     clicksor_text_link_color = '';
     clicksor_enable_inter=true;
     </script>
-    <script type="text/javascript" src="https://b.clicksor.net/show.php?nid=1&amp;pid=392686&amp;sid=655863"></script>
+    <script type="text/javascript" src="http://b.clicksor.net/show.php?nid=1&amp;pid=392686&amp;sid=655863"></script>
 
     <script type="text/javascript"> 
     clicksor_adhere_opt='right:100%'; 
@@ -105,7 +105,7 @@
     clicksor_enable_layer_pop = false;
     clicksor_enable_pop = true;
     </script>
-    <script type="text/javascript" src="https://b.clicksor.net/show.php?nid=1&amp;pid=392686&amp;adtype=10&amp;sid=655863"></script>
+    <script type="text/javascript" src="http://b.clicksor.net/show.php?nid=1&amp;pid=392686&amp;adtype=10&amp;sid=655863"></script>
 
     
 <script type="text/javascript">
@@ -131,7 +131,7 @@ clicksor_layer_ad_text_color = '#666666'; clicksor_text_link_bg = '';
 clicksor_text_link_color = '#3cff73'; clicksor_enable_text_link = true;
 clicksor_layer_banner = false;
 </script>
-<script type="text/javascript" src="https://b.clicksor.net/show.php?nid=1&amp;pid=392686&amp;adtype=6&amp;sid=655863&amp;float=1"></script>
+<script type="text/javascript" src="http://b.clicksor.net/show.php?nid=1&amp;pid=392686&amp;adtype=6&amp;sid=655863&amp;float=1"></script>
 
 
     <script type='text/javascript' src='https://p310774.clksite.com/adServe/banners?tid=310774_605546_3&type=floating_banner&size=6&position=center'></script>
