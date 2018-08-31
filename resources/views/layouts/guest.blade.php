@@ -63,7 +63,10 @@
 
     <script async src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/lib/js/emojione.min.js"></script>
 
-    <script data-cfasync='false' type='text/javascript' src='https://p310774.clksite.com/adServe/banners?tid=310774_605546_5&type=slider&side=right&size=38'></script>
+    <script type='text/javascript' src='//p310774.clksite.com/adServe/banners?tid=310774_605546_6&type=floating_banner&size=6&position=center'></script>
+    
+    <script data-cfasync='false' type='text/javascript' src='//p310774.clksite.com/adServe/banners?tid=310774_605546_0&size=7'></script>
+
     <script data-cfasync='false' type='text/javascript' src='https://p310774.clksite.com/adServe/banners?tid=310774_605546_4'></script>
     
     <script type="text/javascript">

@@ -110,10 +110,10 @@ twq('track','PageView');
    }(document, 'script', 'facebook-jssdk'));
 </script>
 -->
-    <script data-cfasync='false' type='text/javascript' src='https://p310774.clksite.com/adServe/banners?tid=310774_605546_5&type=slider&side=right&size=38'></script>
+    <script type='text/javascript' src='//p310774.clksite.com/adServe/banners?tid=310774_605546_6&type=floating_banner&size=6&position=center'></script>
+
+    <script data-cfasync='false' type='text/javascript' src='//p310774.clksite.com/adServe/banners?tid=310774_605546_0&size=7'></script>
     <script data-cfasync='false' type='text/javascript' src='https://p310774.clksite.com/adServe/banners?tid=310774_605546_4'></script>
-    <meta name="propeller" content="3f496c4c3184ad2489106e0e8238080d">
-    <script type="text/javascript"> 
     <script type="text/javascript">
     ( function() {
     if (window.CHITIKA === undefined) { window.CHITIKA = { 'units' : [] }; };
