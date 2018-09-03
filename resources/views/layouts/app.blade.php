@@ -146,8 +146,7 @@ twq('track','PageView');
     </script>
     <script type="text/javascript" src="https://cdn.chitika.net/getads.js" async></script>
 
-
-    <script type="text/javascript" src="http://b.clicksor.net/show.php?nid=1&amp;pid=392686&amp;sid=655863"></script>
+    <script src="/path/to/vue-infinite-loading/dist/vue-infinite-loading.js"></script>
 
 </body>
 </html>

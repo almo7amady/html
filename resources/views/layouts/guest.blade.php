@@ -103,8 +103,5 @@
     </script>
     <script type="text/javascript" src="https://cdn.chitika.net/getads.js" async></script>
 
-     <!-- Begin BidVertiser code -->
-    <SCRIPT data-cfasync="false" SRC="https://bdv.bidvertiser.com/BidVertiser.dbm?pid=819264&bid=1958620" TYPE="text/javascript"></SCRIPT>
-    <!-- End BidVertiser code --> 
 </body>
 </html>
