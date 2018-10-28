@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => env('DISK_DRIVER', 'spaces'),
+    'default' => env('DISK_DRIVER', 'public'),
 
     /*
     |--------------------------------------------------------------------------
@@ -89,6 +89,6 @@ return [
 
     ],
 
-    'cdn_url'      => env('CDN_URL', ''),
+    'cdn_url'      => env('CDN_URL', 'https://www.caseroot.com/storage/'),
 
 ];
