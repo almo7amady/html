@@ -17,7 +17,13 @@
 
     <link rel="shortcut icon" href="{{ config('app.favicon') }}">
 
-    
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-8027817553143626",
+        enable_page_level_ads: true
+    });
+    </script>
 </head>
 
 <body>
@@ -129,12 +135,8 @@ twq('track','PageView');
         document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
     }());
     </script>
-<script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
+    <script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
    
-    <script type='text/javascript' src='//p310774.clksite.com/adServe/banners?tid=310774_605546_6&type=floating_banner&size=6&position=center'></script>
-
-    <script data-cfasync='false' type='text/javascript' src='//p310774.clksite.com/adServe/banners?tid=310774_605546_0&size=7'></script>
-    <script data-cfasync='false' type='text/javascript' src='https://p310774.clksite.com/adServe/banners?tid=310774_605546_4'></script>
     <script type="text/javascript">
     ( function() {
     if (window.CHITIKA === undefined) { window.CHITIKA = { 'units' : [] }; };
@@ -146,22 +148,7 @@ twq('track','PageView');
     </script>
     <script type="text/javascript" src="https://cdn.chitika.net/getads.js" async></script>
 
-    <script type="text/javascript"> 
-    //default pop-under house ad url 
-    clicksor_enable_pop = true; 
-    clicksor_adhere_opt='left'; 
-    clicksor_enable_text_link =true;
-    durl = '';
-    clicksor_layer_border_color = '';
-    clicksor_layer_ad_bg = '';
-    clicksor_layer_ad_link_color = '';
-    clicksor_layer_ad_text_color = '';
-    clicksor_text_link_bg = '';
-    clicksor_text_link_color = '';
-
-    clicksor_enable_layer_pop = false;
-    </script>
-    <script type="text/javascript" src="http://b.clicksor.net/show.php?nid=1&amp;pid=392686&amp;sid=655863"></script>
+    
 
 </body>
 </html>

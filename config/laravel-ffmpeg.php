@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'default_disk' => env('FFMPEG_DISK_DRIVER', 'spaces'),
+    'default_disk' => env('FFMPEG_DISK_DRIVER', 'public'),
 
     'ffmpeg.binaries' => env('FFMPEG_BINARIES', '/usr/bin/ffmpeg'),
     'ffmpeg.threads'  => env('FFMPEG_THREADS', 12),
