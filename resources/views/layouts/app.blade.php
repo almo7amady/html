@@ -23,6 +23,17 @@
         google_ad_client: "ca-pub-8027817553143626",
         enable_page_level_ads: true
     });
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128385985-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-128385985-1');
+    </script>
+
     </script>
 </head>
 
