@@ -10,8 +10,10 @@
     @yield('title')
 
     @section('styles')
-        <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/lib/js/emojione.min.js"></script>
+    <!--
+    <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
+    -->
+    <link rel="stylesheet" href="https://rawcdn.githack.com/almo7amady/html/2422247919521400b695baa7b2a16bebee6081e4/public/css/app.css">        <script src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/lib/js/emojione.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/css/emojione.min.css"/>
     @show
     <!-- CSRF Token -->

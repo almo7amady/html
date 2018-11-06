@@ -8,7 +8,10 @@
     @yield('head')
 
     @yield('title')
+    <!--
     <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
+    -->
+    <link rel="stylesheet" href="https://rawcdn.githack.com/almo7amady/html/2422247919521400b695baa7b2a16bebee6081e4/public/css/app.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/css/emojione.min.css"/>
 
     <!-- CSRF Token -->
@@ -92,31 +95,8 @@
             document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
         }());
     </script>
-
-    <script type="text/javascript">
-    ( function() {
-        if (window.CHITIKA === undefined) { window.CHITIKA = { 'units' : [] }; };
-        var unit = {"calltype":"async[2]","publisher":"almohamady7","width":728,"height":90,"sid":"Chitika Default"};
-        var placement_id = window.CHITIKA.units.length;
-        window.CHITIKA.units.push(unit);
-        document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
-    }());
-    </script>
     <script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
-
-    <script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
-
     
-    <script type="text/javascript">
-    ( function() {
-    if (window.CHITIKA === undefined) { window.CHITIKA = { 'units' : [] }; };
-    var unit = {"calltype":"async[2]","publisher":"almohamady7","width":550,"height":250,"sid":"Chitika Default"};
-    var placement_id = window.CHITIKA.units.length;
-    window.CHITIKA.units.push(unit);
-    document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
-    }());
-    </script>
-    <script type="text/javascript" src="https://cdn.chitika.net/getads.js" async></script>
 
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NW8JD35"
