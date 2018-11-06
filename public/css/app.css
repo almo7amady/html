@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'fontello';
-  src: url(/fonts/fontello.eot?9c51b4b9fd27eae6b4618b8aef5bb0fd);
-  src: url(/fonts/fontello.eot?9c51b4b9fd27eae6b4618b8aef5bb0fd#iefix) format('embedded-opentype'),
-       url(/fonts/fontello.woff2?c489a194745ef49dcee6627131949bda) format('woff2'),
-       url(/fonts/fontello.woff?ada111c174111b9ceb34b365ff366b06) format('woff'),
-       url(/fonts/fontello.ttf?41d184d8ad953de3572dece6da7f4a2e) format('truetype'),
-       url(/fonts/fontello.svg?c1b547ffc453cce34a73345fc1b1cb32#fontello) format('svg');
+  src: url(https://rawcdn.githack.com/almo7amady/html/15cd44c6b3a4b9b3e3254877b3953abc707b4943/public/fonts/fontello.eot?9c51b4b9fd27eae6b4618b8aef5bb0fd);
+  src: url(https://rawcdn.githack.com/almo7amady/html/15cd44c6b3a4b9b3e3254877b3953abc707b4943/public/fonts/fontello.eot?9c51b4b9fd27eae6b4618b8aef5bb0fd#iefix) format('embedded-opentype'),
+       url(https://github.com/almo7amady/html/blob/master/public/fonts/fontello.woff2?c489a194745ef49dcee6627131949bda) format('woff2'),
+       url(https://rawcdn.githack.com/almo7amady/html/15cd44c6b3a4b9b3e3254877b3953abc707b4943/public/fonts/fontello.woff?ada111c174111b9ceb34b365ff366b06) format('woff'),
+       url(https://rawcdn.githack.com/almo7amady/html/15cd44c6b3a4b9b3e3254877b3953abc707b4943/public/fonts/fontello.ttf?41d184d8ad953de3572dece6da7f4a2e) format('truetype'),
+       url(https://rawcdn.githack.com/almo7amady/html/15cd44c6b3a4b9b3e3254877b3953abc707b4943/public/fonts/fontello.svg?c1b547ffc453cce34a73345fc1b1cb32#fontello) format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -74468,7 +74468,8 @@ img.emojione {
   background: #fff;
   height: 30px;
   margin-top: -15px;
-  -webkit-transition: height 0.25s ease-in-out, margin-top 0.25s ease-in-out;
+  -webkit-transition: height 0.25s ease-in-out,
+ margin-top 0.25s ease-in-out;
   -webkit-transition: height 0.25s ease-in-out, margin-top 0.25s ease-in-out;
   transition: height 0.25s ease-in-out, margin-top 0.25s ease-in-out;
   border-radius: 2px;
