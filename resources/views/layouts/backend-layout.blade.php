@@ -37,15 +37,15 @@
 
 @include('php-to-js-data')
 
+   <!--
     <script src="{{ mix('/js/manifest.js') }}"></script>
 	<script src="{{ mix('/js/vendor.js') }}"></script>
 	<script src="{{ mix('/js/app.js') }}"></script>
-    
-	<!--
-    <script src="https://cdn.rawgit.com/almo7amady/html/62086ecf/public/js/manifest.js"></script>
-	<script src="https://cdn.rawgit.com/almo7amady/html/62086ecf/public/js/vendor.js"></script>
-    <script src="https://cdn.rawgit.com/almo7amady/html/62086ecf/public/js/app.js"></script>
     -->
+
+    <script src="https://rawcdn.githack.com/almo7amady/html/8ab793f3f7f31ff19686defe9facd9bd4019508f/public/js/manifest.js"></script>
+	<script src="https://rawcdn.githack.com/almo7amady/html/8ab793f3f7f31ff19686defe9facd9bd4019508f/public/js/vendor.js"></script>
+    <script src="https://rawcdn.githack.com/almo7amady/html/8ab793f3f7f31ff19686defe9facd9bd4019508f/public/js/app.js"></script>
 
 </body>
 </html>
