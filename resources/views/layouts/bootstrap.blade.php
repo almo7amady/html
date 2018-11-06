@@ -20,8 +20,13 @@
     </div>
 
     @include('php-to-js-data') @yield('script')
+    <script src="{{ mix('/js/manifest.js') }}"></script>
+	<script src="{{ mix('/js/vendor.js') }}"></script>
+    
+	<!--
     <script src="https://cdn.rawgit.com/almo7amady/html/62086ecf/public/js/manifest.js"></script>
 	<script src="https://cdn.rawgit.com/almo7amady/html/62086ecf/public/js/vendor.js"></script>
+    -->
         <script src="{{ mix('/js/bootstrap4.js') }}"></script>
     @yield('footer')
     <script src="https://code.jquery.com/jquery-3.3.2.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
