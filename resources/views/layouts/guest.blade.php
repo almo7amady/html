@@ -11,7 +11,7 @@
     <!--
     <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
     -->
-    <link rel="stylesheet" href="https://rawcdn.githack.com/almo7amady/html/8cc354dc5184252c616bd7db58f4a13d3f7523c7/public/css/app.css">
+    <link rel="stylesheet" href="https://rawcdn.githack.com/almo7amady/html/d87d34027b8ffbfeb6b5d7d3d337a7730008692f/public/css/app.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/css/emojione.min.css"/>
 
     <!-- CSRF Token -->
