@@ -6,10 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="propeller" content="3f496c4c3184ad2489106e0e8238080d">
     @yield('head')
-    <!--
     <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
-    -->
-    <link rel="stylesheet" href="https://rawcdn.githack.com/almo7amady/html/d87d34027b8ffbfeb6b5d7d3d337a7730008692f/public/css/app.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/css/emojione.min.css"/>
  
 
