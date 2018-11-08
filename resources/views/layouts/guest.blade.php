@@ -39,6 +39,14 @@
     })(window,document,'script','dataLayer','GTM-NW8JD35');</script>
     <!-- End Google Tag Manager -->
 
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-7714248556379812",
+        enable_page_level_ads: true
+    });
+    </script>
+
 </head>
 
 <body>
