@@ -41,9 +41,9 @@
 	<script src="{{ mix('/js/vendor.js') }}"></script>
 	<script src="{{ mix('/js/app.js') }}"></script>
     -->
-    <script src="https://gitcdn.xyz/almo7amady/html/blob/master/public/js/manifest.js"></script>
-	<script src="https://gitcdn.xyz/almo7amady/html/blob/master/public/js/vendor.js"></script>
-    <script src="https://gitcdn.xyz/almo7amady/html/blob/master/public/js/app.js"></script>
+    <script src="https://gitcdn.xyz/almo7amady/html/master/public/js/manifest.js"></script>
+	<script src="https://gitcdn.xyz/almo7amady/html/master/public/js/vendor.js"></script>
+    <script src="https://gitcdn.xyz/almo7amady/html/master/public/js/app.js"></script>
 @yield('footer')
 
 </body>
