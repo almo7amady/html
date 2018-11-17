@@ -25,8 +25,8 @@
 	<script src="{{ mix('/js/vendor.js') }}"></script>
     -->
 
-    <script src="https://rawcdn.githack.com/almo7amady/html/8ab793f3f7f31ff19686defe9facd9bd4019508f/public/js/manifest.js"></script>
-	<script src="https://rawcdn.githack.com/almo7amady/html/8ab793f3f7f31ff19686defe9facd9bd4019508f/public/js/vendor.js"></script>
+    <script src="https://gitcdn.xyz/almo7amady/html/blob/master/public/js/manifest.js"></script>
+	<script src="https://gitcdn.xyz/almo7amady/html/blob/master/public/js/vendor.js"></script>
     <script src="{{ mix('/js/bootstrap4.js') }}"></script>
     @yield('footer')
     <script src="https://code.jquery.com/jquery-3.3.2.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

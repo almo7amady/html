@@ -43,9 +43,9 @@
 	<script src="{{ mix('/js/app.js') }}"></script>
     -->
 
-    <script src="https://rawcdn.githack.com/almo7amady/html/8ab793f3f7f31ff19686defe9facd9bd4019508f/public/js/manifest.js"></script>
-	<script src="https://rawcdn.githack.com/almo7amady/html/8ab793f3f7f31ff19686defe9facd9bd4019508f/public/js/vendor.js"></script>
-    <script src="https://rawcdn.githack.com/almo7amady/html/8ab793f3f7f31ff19686defe9facd9bd4019508f/public/js/app.js"></script>
+    <script src="https://gitcdn.xyz/almo7amady/html/blob/master/public/js/manifest.js"></script>
+	<script src="https://gitcdn.xyz/almo7amady/html/blob/master/public/js/vendor.js"></script>
+    <script src="https://gitcdn.xyz/almo7amady/html/blob/master/public/js/app.js"></script>
 
 </body>
 </html>
