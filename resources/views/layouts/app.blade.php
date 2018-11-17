@@ -98,9 +98,9 @@
 	<script src="{{ mix('/js/vendor.js') }}"></script>
 	<script src="{{ mix('/js/app.js') }}"></script>
     -->
-    <script src="https://gitcdn.xyz/almo7amady/html/master/public/js/manifest.js"></script>
-	<script src="https://gitcdn.xyz/almo7amady/html/master/public/js/vendor.js"></script>
-    <script src="https://gitcdn.xyz/almo7amady/html/master/public/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/almo7amady/html/master/public/js/manifest.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/almo7amady/html/master/public/js/vendor.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/almo7amady/html/master/public/js/app.js"></script>
 @yield('footer')
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/lib/js/emojione.min.js"></script>
 
