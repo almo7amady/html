@@ -28,24 +28,6 @@
 
     gtag('config', 'UA-128385985-1');
     </script>
-
-
-        <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-NW8JD35');</script>
-    <!-- End Google Tag Manager -->
-
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-    (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-8027817553143626",
-        enable_page_level_ads: true
-    });
-    </script>
-    <meta name="p:domain_verify" content="763893c7a2ebac55da440ebf06f37285"/>
 </head>
 
 <body>
@@ -94,66 +76,9 @@
 
 @yield('script')
 <script src="{{ mix('/js/manifest.js') }}"></script>
-	<script src="{{ mix('/js/vendor.js') }}"></script>
-	<script src="{{ mix('/js/app.js') }}"></script>
-   <!--
+<script src="{{ mix('/js/vendor.js') }}"></script>
+<script src="{{ mix('/js/app.js') }}"></script>
 
-    <script src="https://cdn.jsdelivr.net/gh/almo7amady/html/master/public/js/manifest.js"></script>
-	<script src="https://cdn.jsdelivr.net/gh/almo7amady/html/master/public/js/vendor.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/almo7amady/html/master/public/js/app.js"></script>
-        -->
 @yield('footer')
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/lib/js/emojione.min.js"></script>
-
-
-<!-- Twitter universal website tag code
-<script>
-!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
-},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
-a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
-// Insert Twitter Pixel ID and Standard Event data below
-twq('init','nzv10');
-twq('track','PageView');
-</script>
-
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '{your-app-id}',
-      cookie     : true,
-      xfbml      : true,
-      version    : '{api-version}'
-    });
-      
-    FB.AppEvents.logPageView();   
-      
-  };
-
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "https://connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>
--->
-   
-<script type="text/javascript">
-        ( function() {
-            if (window.CHITIKA === undefined) { window.CHITIKA = { 'units' : [] }; };
-            var unit = {"calltype":"async[2]","publisher":"almohamady7","width":320,"height":50,"sid":"Chitika Default"};
-            var placement_id = window.CHITIKA.units.length;
-            window.CHITIKA.units.push(unit);
-            document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
-        }());
-    </script>
-    <script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
-
-        
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NW8JD35"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    </body>
 </html>
